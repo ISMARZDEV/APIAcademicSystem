@@ -1,0 +1,15 @@
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\bin\Debug\net8.0\SistemaAcademicoBackend.AcademicCatalog.Core.deps.json
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\bin\Debug\net8.0\SistemaAcademicoBackend.AcademicCatalog.Core.dll
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\bin\Debug\net8.0\SistemaAcademicoBackend.AcademicCatalog.Core.pdb
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\bin\Debug\net8.0\SistemaAcademicoBackend.SharedKernel.Core.dll
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\bin\Debug\net8.0\SistemaAcademicoBackend.SharedKernel.Core.pdb
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\obj\Debug\net8.0\SistemaAcademicoBackend.AcademicCatalog.Core.csproj.AssemblyReference.cache
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\obj\Debug\net8.0\SistemaAcademicoBackend.AcademicCatalog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\obj\Debug\net8.0\SistemaAcademicoBackend.AcademicCatalog.Core.AssemblyInfoInputs.cache
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\obj\Debug\net8.0\SistemaAcademicoBackend.AcademicCatalog.Core.AssemblyInfo.cs
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\obj\Debug\net8.0\SistemaAcademicoBackend.AcademicCatalog.Core.csproj.CoreCompileInputs.cache
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\obj\Debug\net8.0\SistemaA.A33DCD76.Up2Date
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\obj\Debug\net8.0\SistemaAcademicoBackend.AcademicCatalog.Core.dll
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\obj\Debug\net8.0\refint\SistemaAcademicoBackend.AcademicCatalog.Core.dll
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\obj\Debug\net8.0\SistemaAcademicoBackend.AcademicCatalog.Core.pdb
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.AcademicCatalog.Core\obj\Debug\net8.0\ref\SistemaAcademicoBackend.AcademicCatalog.Core.dll

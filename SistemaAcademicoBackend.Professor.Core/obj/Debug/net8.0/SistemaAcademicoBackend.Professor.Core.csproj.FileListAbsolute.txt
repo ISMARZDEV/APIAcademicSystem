@@ -1,0 +1,15 @@
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\bin\Debug\net8.0\SistemaAcademicoBackend.Professor.Core.deps.json
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\bin\Debug\net8.0\SistemaAcademicoBackend.Professor.Core.dll
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\bin\Debug\net8.0\SistemaAcademicoBackend.Professor.Core.pdb
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\bin\Debug\net8.0\SistemaAcademicoBackend.SharedKernel.Core.dll
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\bin\Debug\net8.0\SistemaAcademicoBackend.SharedKernel.Core.pdb
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\obj\Debug\net8.0\SistemaAcademicoBackend.Professor.Core.csproj.AssemblyReference.cache
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\obj\Debug\net8.0\SistemaAcademicoBackend.Professor.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\obj\Debug\net8.0\SistemaAcademicoBackend.Professor.Core.AssemblyInfoInputs.cache
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\obj\Debug\net8.0\SistemaAcademicoBackend.Professor.Core.AssemblyInfo.cs
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\obj\Debug\net8.0\SistemaAcademicoBackend.Professor.Core.csproj.CoreCompileInputs.cache
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\obj\Debug\net8.0\SistemaA.9E77DD3F.Up2Date
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\obj\Debug\net8.0\SistemaAcademicoBackend.Professor.Core.dll
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\obj\Debug\net8.0\refint\SistemaAcademicoBackend.Professor.Core.dll
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\obj\Debug\net8.0\SistemaAcademicoBackend.Professor.Core.pdb
+C:\source\SistemaAcademicoBackend\SistemaAcademicoBackend.Professor.Core\obj\Debug\net8.0\ref\SistemaAcademicoBackend.Professor.Core.dll
