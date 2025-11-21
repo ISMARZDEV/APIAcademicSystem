@@ -4,6 +4,300 @@
     "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj": {}
   },
   "projects": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj",
+        "projectName": "SistemaAcademico.AcademicCatalog.Core",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj",
+        "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj",
+        "projectName": "SistemaAcademico.AcademicCatalog.Infrastructure",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj"
+              },
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj",
+        "projectName": "SistemaAcademico.AcademicProgress.Core",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj",
+        "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj",
+        "projectName": "SistemaAcademico.AcademicProgress.Infrastructure",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj"
+              },
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,35 +326,35 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Infrastructure\\SistemaAcademicoBackend.AcademicProgress.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Infrastructure\\SistemaAcademicoBackend.AcademicProgress.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Infrastructure\\SistemaAcademicoBackend.Authentication.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Infrastructure\\SistemaAcademicoBackend.Authentication.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Infrastructure\\SistemaAcademicoBackend.Dashboard.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Infrastructure\\SistemaAcademicoBackend.Dashboard.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Infrastructure\\SistemaAcademicoBackend.Payment.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Infrastructure\\SistemaAcademicoBackend.Payment.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Infrastructure\\SistemaAcademicoBackend.Professor.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Infrastructure\\SistemaAcademicoBackend.Professor.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Infrastructure\\SistemaAcademicoBackend.Reports.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Infrastructure\\SistemaAcademicoBackend.Reports.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Infrastructure\\SistemaAcademicoBackend.Retirement.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Infrastructure\\SistemaAcademicoBackend.Retirement.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj"
               }
             }
           }
@@ -115,14 +409,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Core\\SistemaAcademicoBackend.AcademicCatalog.Core.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Core\\SistemaAcademicoBackend.AcademicCatalog.Core.csproj",
-        "projectName": "SistemaAcademicoBackend.AcademicCatalog.Core",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Core\\SistemaAcademicoBackend.AcademicCatalog.Core.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj",
+        "projectName": "SistemaAcademico.Authentication.Core",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Core\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -143,8 +437,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -184,14 +478,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure.csproj",
-        "projectName": "SistemaAcademicoBackend.AcademicCatalog.Infrastructure",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj",
+        "projectName": "SistemaAcademico.Authentication.Infrastructure",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -212,11 +506,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Core\\SistemaAcademicoBackend.AcademicCatalog.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Core\\SistemaAcademicoBackend.AcademicCatalog.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               }
             }
           }
@@ -262,14 +556,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Core\\SistemaAcademicoBackend.AcademicProgress.Core.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Core\\SistemaAcademicoBackend.AcademicProgress.Core.csproj",
-        "projectName": "SistemaAcademicoBackend.AcademicProgress.Core",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Core\\SistemaAcademicoBackend.AcademicProgress.Core.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj",
+        "projectName": "SistemaAcademico.Dashboard.Core",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Core\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -290,8 +584,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -331,14 +625,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Infrastructure\\SistemaAcademicoBackend.AcademicProgress.Infrastructure.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Infrastructure\\SistemaAcademicoBackend.AcademicProgress.Infrastructure.csproj",
-        "projectName": "SistemaAcademicoBackend.AcademicProgress.Infrastructure",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Infrastructure\\SistemaAcademicoBackend.AcademicProgress.Infrastructure.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj",
+        "projectName": "SistemaAcademico.Dashboard.Infrastructure",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Infrastructure\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -359,11 +653,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Core\\SistemaAcademicoBackend.AcademicProgress.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Core\\SistemaAcademicoBackend.AcademicProgress.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               }
             }
           }
@@ -409,14 +703,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Core\\SistemaAcademicoBackend.Authentication.Core.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Core\\SistemaAcademicoBackend.Authentication.Core.csproj",
-        "projectName": "SistemaAcademicoBackend.Authentication.Core",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Core\\SistemaAcademicoBackend.Authentication.Core.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj",
+        "projectName": "SistemaAcademico.SharedKernel.Infrastructure",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Core\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -437,8 +731,93 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj",
+        "projectName": "SistemaAcademico.Payment.Core",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj",
+        "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -478,14 +857,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Infrastructure\\SistemaAcademicoBackend.Authentication.Infrastructure.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Infrastructure\\SistemaAcademicoBackend.Authentication.Infrastructure.csproj",
-        "projectName": "SistemaAcademicoBackend.Authentication.Infrastructure",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Infrastructure\\SistemaAcademicoBackend.Authentication.Infrastructure.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj",
+        "projectName": "SistemaAcademico.Payment.Infrastructure",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Infrastructure\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -506,11 +885,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Core\\SistemaAcademicoBackend.Authentication.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Core\\SistemaAcademicoBackend.Authentication.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj"
               }
             }
           }
@@ -556,14 +935,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Core\\SistemaAcademicoBackend.Dashboard.Core.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Core\\SistemaAcademicoBackend.Dashboard.Core.csproj",
-        "projectName": "SistemaAcademicoBackend.Dashboard.Core",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Core\\SistemaAcademicoBackend.Dashboard.Core.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj",
+        "projectName": "SistemaAcademico.Professor.Core",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Core\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -584,8 +963,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -625,14 +1004,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Infrastructure\\SistemaAcademicoBackend.Dashboard.Infrastructure.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Infrastructure\\SistemaAcademicoBackend.Dashboard.Infrastructure.csproj",
-        "projectName": "SistemaAcademicoBackend.Dashboard.Infrastructure",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Infrastructure\\SistemaAcademicoBackend.Dashboard.Infrastructure.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj",
+        "projectName": "SistemaAcademico.Professor.Infrastructure",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Infrastructure\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -653,11 +1032,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Core\\SistemaAcademicoBackend.Dashboard.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Core\\SistemaAcademicoBackend.Dashboard.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj"
               }
             }
           }
@@ -703,14 +1082,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Core\\SistemaAcademicoBackend.Payment.Core.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Core\\SistemaAcademicoBackend.Payment.Core.csproj",
-        "projectName": "SistemaAcademicoBackend.Payment.Core",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Core\\SistemaAcademicoBackend.Payment.Core.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj",
+        "projectName": "SistemaAcademico.Reports.Core",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Core\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -731,8 +1110,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -772,14 +1151,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Infrastructure\\SistemaAcademicoBackend.Payment.Infrastructure.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Infrastructure\\SistemaAcademicoBackend.Payment.Infrastructure.csproj",
-        "projectName": "SistemaAcademicoBackend.Payment.Infrastructure",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Infrastructure\\SistemaAcademicoBackend.Payment.Infrastructure.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj",
+        "projectName": "SistemaAcademico.Reports.Infrastructure",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Infrastructure\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -800,11 +1179,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Core\\SistemaAcademicoBackend.Payment.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Core\\SistemaAcademicoBackend.Payment.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj"
               }
             }
           }
@@ -850,14 +1229,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Core\\SistemaAcademicoBackend.Professor.Core.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Core\\SistemaAcademicoBackend.Professor.Core.csproj",
-        "projectName": "SistemaAcademicoBackend.Professor.Core",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Core\\SistemaAcademicoBackend.Professor.Core.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj",
+        "projectName": "SistemaAcademico.Retirement.Core",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Core\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -878,8 +1257,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -919,14 +1298,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Infrastructure\\SistemaAcademicoBackend.Professor.Infrastructure.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Infrastructure\\SistemaAcademicoBackend.Professor.Infrastructure.csproj",
-        "projectName": "SistemaAcademicoBackend.Professor.Infrastructure",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Infrastructure\\SistemaAcademicoBackend.Professor.Infrastructure.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj",
+        "projectName": "SistemaAcademico.Retirement.Infrastructure",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Infrastructure\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -947,11 +1326,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Core\\SistemaAcademicoBackend.Professor.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Core\\SistemaAcademicoBackend.Professor.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj"
               }
             }
           }
@@ -997,14 +1376,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Core\\SistemaAcademicoBackend.Reports.Core.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Core\\SistemaAcademicoBackend.Reports.Core.csproj",
-        "projectName": "SistemaAcademicoBackend.Reports.Core",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Core\\SistemaAcademicoBackend.Reports.Core.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj",
+        "projectName": "SistemaAcademico.SelecctionAndPreselecction.Core",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Core\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1025,8 +1404,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -1066,14 +1445,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Infrastructure\\SistemaAcademicoBackend.Reports.Infrastructure.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Infrastructure\\SistemaAcademicoBackend.Reports.Infrastructure.csproj",
-        "projectName": "SistemaAcademicoBackend.Reports.Infrastructure",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Infrastructure\\SistemaAcademicoBackend.Reports.Infrastructure.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj",
+        "projectName": "SistemaAcademico.SelecctionAndPreselecction.Infrastructure",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Infrastructure\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1094,11 +1473,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Core\\SistemaAcademicoBackend.Reports.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Core\\SistemaAcademicoBackend.Reports.Core.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
+              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj": {
+                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj"
               }
             }
           }
@@ -1144,308 +1523,14 @@
         }
       }
     },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Core\\SistemaAcademicoBackend.Retirement.Core.csproj": {
+    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Core\\SistemaAcademicoBackend.Retirement.Core.csproj",
-        "projectName": "SistemaAcademicoBackend.Retirement.Core",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Core\\SistemaAcademicoBackend.Retirement.Core.csproj",
+        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj",
+        "projectName": "SistemaAcademico.SharedKernel.Core",
+        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj",
         "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Core\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Infrastructure\\SistemaAcademicoBackend.Retirement.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Infrastructure\\SistemaAcademicoBackend.Retirement.Infrastructure.csproj",
-        "projectName": "SistemaAcademicoBackend.Retirement.Infrastructure",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Infrastructure\\SistemaAcademicoBackend.Retirement.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Infrastructure\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Core\\SistemaAcademicoBackend.Retirement.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Core\\SistemaAcademicoBackend.Retirement.Core.csproj"
-              },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core.csproj",
-        "projectName": "SistemaAcademicoBackend.SelecctionAndPreselecction.Core",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core.csproj",
-        "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.csproj",
-        "projectName": "SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core\\SistemaAcademicoBackend.SelecctionAndPreselecction.Core.csproj"
-              },
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj",
-        "projectName": "SistemaAcademicoBackend.SharedKernel.Core",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj",
-        "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\obj\\",
+        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SharedKernel.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1483,91 +1568,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj",
-        "projectName": "SistemaAcademicoBackend.SharedKernel.Infrastructure",
-        "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Core\\SistemaAcademicoBackend.SharedKernel.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.0, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

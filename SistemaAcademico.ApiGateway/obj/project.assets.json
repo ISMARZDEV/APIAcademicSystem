@@ -925,281 +925,281 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "SistemaAcademicoBackend.AcademicCatalog.Core/1.0.0": {
+      "SistemaAcademico.AcademicCatalog.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.AcademicCatalog.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.AcademicCatalog.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.AcademicCatalog.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.AcademicCatalog.Core.dll": {}
         }
       },
-      "SistemaAcademicoBackend.AcademicCatalog.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.AcademicCatalog.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.AcademicCatalog.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.AcademicCatalog.Infrastructure.dll": {}
-        }
-      },
-      "SistemaAcademicoBackend.AcademicProgress.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.AcademicProgress.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.AcademicProgress.Core.dll": {}
-        }
-      },
-      "SistemaAcademicoBackend.AcademicProgress.Infrastructure/1.0.0": {
+      "SistemaAcademico.AcademicCatalog.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.AcademicProgress.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
+          "SistemaAcademico.AcademicCatalog.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.AcademicProgress.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.AcademicCatalog.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.AcademicProgress.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.AcademicCatalog.Infrastructure.dll": {}
         }
       },
-      "SistemaAcademicoBackend.Authentication.Core/1.0.0": {
+      "SistemaAcademico.AcademicProgress.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Authentication.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.AcademicProgress.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Authentication.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.AcademicProgress.Core.dll": {}
         }
       },
-      "SistemaAcademicoBackend.Authentication.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Authentication.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Authentication.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Authentication.Infrastructure.dll": {}
-        }
-      },
-      "SistemaAcademicoBackend.Dashboard.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Dashboard.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Dashboard.Core.dll": {}
-        }
-      },
-      "SistemaAcademicoBackend.Dashboard.Infrastructure/1.0.0": {
+      "SistemaAcademico.AcademicProgress.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Dashboard.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
+          "SistemaAcademico.AcademicProgress.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Dashboard.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.AcademicProgress.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Dashboard.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.AcademicProgress.Infrastructure.dll": {}
         }
       },
-      "SistemaAcademicoBackend.Payment.Core/1.0.0": {
+      "SistemaAcademico.Authentication.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Payment.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.Authentication.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Payment.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.Authentication.Core.dll": {}
         }
       },
-      "SistemaAcademicoBackend.Payment.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Payment.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Payment.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Payment.Infrastructure.dll": {}
-        }
-      },
-      "SistemaAcademicoBackend.Professor.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Professor.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Professor.Core.dll": {}
-        }
-      },
-      "SistemaAcademicoBackend.Professor.Infrastructure/1.0.0": {
+      "SistemaAcademico.Authentication.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Professor.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
+          "SistemaAcademico.Authentication.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Professor.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.Authentication.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Professor.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.Authentication.Infrastructure.dll": {}
         }
       },
-      "SistemaAcademicoBackend.Reports.Core/1.0.0": {
+      "SistemaAcademico.Dashboard.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Reports.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.Dashboard.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Reports.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.Dashboard.Core.dll": {}
         }
       },
-      "SistemaAcademicoBackend.Reports.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Reports.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Reports.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Reports.Infrastructure.dll": {}
-        }
-      },
-      "SistemaAcademicoBackend.Retirement.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Retirement.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Retirement.Core.dll": {}
-        }
-      },
-      "SistemaAcademicoBackend.Retirement.Infrastructure/1.0.0": {
+      "SistemaAcademico.Dashboard.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Retirement.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
+          "SistemaAcademico.Dashboard.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.Retirement.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.Dashboard.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.Retirement.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.Dashboard.Infrastructure.dll": {}
         }
       },
-      "SistemaAcademicoBackend.SelecctionAndPreselecction.Core/1.0.0": {
+      "SistemaAcademico.Payment.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.SelecctionAndPreselecction.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.Payment.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.SelecctionAndPreselecction.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.Payment.Core.dll": {}
         }
       },
-      "SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure/1.0.0": {
+      "SistemaAcademico.Payment.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.SelecctionAndPreselecction.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
+          "SistemaAcademico.Payment.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.Payment.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.Payment.Infrastructure.dll": {}
         }
       },
-      "SistemaAcademicoBackend.SharedKernel.Core/1.0.0": {
+      "SistemaAcademico.Professor.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaAcademico.Professor.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaAcademico.Professor.Core.dll": {}
+        }
+      },
+      "SistemaAcademico.Professor.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "SistemaAcademico.Professor.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaAcademico.Professor.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaAcademico.Professor.Infrastructure.dll": {}
+        }
+      },
+      "SistemaAcademico.Reports.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaAcademico.Reports.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaAcademico.Reports.Core.dll": {}
+        }
+      },
+      "SistemaAcademico.Reports.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "SistemaAcademico.Reports.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaAcademico.Reports.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaAcademico.Reports.Infrastructure.dll": {}
+        }
+      },
+      "SistemaAcademico.Retirement.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaAcademico.Retirement.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaAcademico.Retirement.Core.dll": {}
+        }
+      },
+      "SistemaAcademico.Retirement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "SistemaAcademico.Retirement.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaAcademico.Retirement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaAcademico.Retirement.Infrastructure.dll": {}
+        }
+      },
+      "SistemaAcademico.SelecctionAndPreselecction.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaAcademico.SelecctionAndPreselecction.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaAcademico.SelecctionAndPreselecction.Core.dll": {}
+        }
+      },
+      "SistemaAcademico.SelecctionAndPreselecction.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "SistemaAcademico.SelecctionAndPreselecction.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaAcademico.SelecctionAndPreselecction.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaAcademico.SelecctionAndPreselecction.Infrastructure.dll": {}
+        }
+      },
+      "SistemaAcademico.SharedKernel.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.SharedKernel.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.SharedKernel.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.SharedKernel.Core.dll": {}
+          "bin/placeholder/SistemaAcademico.SharedKernel.Core.dll": {}
         }
       },
-      "SistemaAcademicoBackend.SharedKernel.Infrastructure/1.0.0": {
+      "SistemaAcademico.SharedKernel.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SistemaAcademicoBackend.SharedKernel.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.SharedKernel.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SistemaAcademicoBackend.SharedKernel.Infrastructure.dll": {}
+          "bin/placeholder/SistemaAcademico.SharedKernel.Infrastructure.dll": {}
         }
       }
     }
@@ -2851,120 +2851,120 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "SistemaAcademicoBackend.AcademicCatalog.Core/1.0.0": {
+    "SistemaAcademico.AcademicCatalog.Core/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.AcademicCatalog.Core/SistemaAcademicoBackend.AcademicCatalog.Core.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.AcademicCatalog.Core/SistemaAcademicoBackend.AcademicCatalog.Core.csproj"
+      "path": "../SistemaAcademico.AcademicCatalog.Core/SistemaAcademico.AcademicCatalog.Core.csproj",
+      "msbuildProject": "../SistemaAcademico.AcademicCatalog.Core/SistemaAcademico.AcademicCatalog.Core.csproj"
     },
-    "SistemaAcademicoBackend.AcademicCatalog.Infrastructure/1.0.0": {
+    "SistemaAcademico.AcademicCatalog.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.AcademicCatalog.Infrastructure/SistemaAcademicoBackend.AcademicCatalog.Infrastructure.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.AcademicCatalog.Infrastructure/SistemaAcademicoBackend.AcademicCatalog.Infrastructure.csproj"
+      "path": "../SistemaAcademico.AcademicCatalog.Infrastructure/SistemaAcademico.AcademicCatalog.Infrastructure.csproj",
+      "msbuildProject": "../SistemaAcademico.AcademicCatalog.Infrastructure/SistemaAcademico.AcademicCatalog.Infrastructure.csproj"
     },
-    "SistemaAcademicoBackend.AcademicProgress.Core/1.0.0": {
+    "SistemaAcademico.AcademicProgress.Core/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.AcademicProgress.Core/SistemaAcademicoBackend.AcademicProgress.Core.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.AcademicProgress.Core/SistemaAcademicoBackend.AcademicProgress.Core.csproj"
+      "path": "../SistemaAcademico.AcademicProgress.Core/SistemaAcademico.AcademicProgress.Core.csproj",
+      "msbuildProject": "../SistemaAcademico.AcademicProgress.Core/SistemaAcademico.AcademicProgress.Core.csproj"
     },
-    "SistemaAcademicoBackend.AcademicProgress.Infrastructure/1.0.0": {
+    "SistemaAcademico.AcademicProgress.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.AcademicProgress.Infrastructure/SistemaAcademicoBackend.AcademicProgress.Infrastructure.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.AcademicProgress.Infrastructure/SistemaAcademicoBackend.AcademicProgress.Infrastructure.csproj"
+      "path": "../SistemaAcademico.AcademicProgress.Infrastructure/SistemaAcademico.AcademicProgress.Infrastructure.csproj",
+      "msbuildProject": "../SistemaAcademico.AcademicProgress.Infrastructure/SistemaAcademico.AcademicProgress.Infrastructure.csproj"
     },
-    "SistemaAcademicoBackend.Authentication.Core/1.0.0": {
+    "SistemaAcademico.Authentication.Core/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Authentication.Core/SistemaAcademicoBackend.Authentication.Core.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Authentication.Core/SistemaAcademicoBackend.Authentication.Core.csproj"
+      "path": "../SistemaAcademico.Authentication.Core/SistemaAcademico.Authentication.Core.csproj",
+      "msbuildProject": "../SistemaAcademico.Authentication.Core/SistemaAcademico.Authentication.Core.csproj"
     },
-    "SistemaAcademicoBackend.Authentication.Infrastructure/1.0.0": {
+    "SistemaAcademico.Authentication.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Authentication.Infrastructure/SistemaAcademicoBackend.Authentication.Infrastructure.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Authentication.Infrastructure/SistemaAcademicoBackend.Authentication.Infrastructure.csproj"
+      "path": "../SistemaAcademico.Authentication.Infrastructure/SistemaAcademico.Authentication.Infrastructure.csproj",
+      "msbuildProject": "../SistemaAcademico.Authentication.Infrastructure/SistemaAcademico.Authentication.Infrastructure.csproj"
     },
-    "SistemaAcademicoBackend.Dashboard.Core/1.0.0": {
+    "SistemaAcademico.Dashboard.Core/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Dashboard.Core/SistemaAcademicoBackend.Dashboard.Core.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Dashboard.Core/SistemaAcademicoBackend.Dashboard.Core.csproj"
+      "path": "../SistemaAcademico.Dashboard.Core/SistemaAcademico.Dashboard.Core.csproj",
+      "msbuildProject": "../SistemaAcademico.Dashboard.Core/SistemaAcademico.Dashboard.Core.csproj"
     },
-    "SistemaAcademicoBackend.Dashboard.Infrastructure/1.0.0": {
+    "SistemaAcademico.Dashboard.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Dashboard.Infrastructure/SistemaAcademicoBackend.Dashboard.Infrastructure.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Dashboard.Infrastructure/SistemaAcademicoBackend.Dashboard.Infrastructure.csproj"
+      "path": "../SistemaAcademico.Dashboard.Infrastructure/SistemaAcademico.Dashboard.Infrastructure.csproj",
+      "msbuildProject": "../SistemaAcademico.Dashboard.Infrastructure/SistemaAcademico.Dashboard.Infrastructure.csproj"
     },
-    "SistemaAcademicoBackend.Payment.Core/1.0.0": {
+    "SistemaAcademico.Payment.Core/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Payment.Core/SistemaAcademicoBackend.Payment.Core.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Payment.Core/SistemaAcademicoBackend.Payment.Core.csproj"
+      "path": "../SistemaAcademico.Payment.Core/SistemaAcademico.Payment.Core.csproj",
+      "msbuildProject": "../SistemaAcademico.Payment.Core/SistemaAcademico.Payment.Core.csproj"
     },
-    "SistemaAcademicoBackend.Payment.Infrastructure/1.0.0": {
+    "SistemaAcademico.Payment.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Payment.Infrastructure/SistemaAcademicoBackend.Payment.Infrastructure.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Payment.Infrastructure/SistemaAcademicoBackend.Payment.Infrastructure.csproj"
+      "path": "../SistemaAcademico.Payment.Infrastructure/SistemaAcademico.Payment.Infrastructure.csproj",
+      "msbuildProject": "../SistemaAcademico.Payment.Infrastructure/SistemaAcademico.Payment.Infrastructure.csproj"
     },
-    "SistemaAcademicoBackend.Professor.Core/1.0.0": {
+    "SistemaAcademico.Professor.Core/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Professor.Core/SistemaAcademicoBackend.Professor.Core.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Professor.Core/SistemaAcademicoBackend.Professor.Core.csproj"
+      "path": "../SistemaAcademico.Professor.Core/SistemaAcademico.Professor.Core.csproj",
+      "msbuildProject": "../SistemaAcademico.Professor.Core/SistemaAcademico.Professor.Core.csproj"
     },
-    "SistemaAcademicoBackend.Professor.Infrastructure/1.0.0": {
+    "SistemaAcademico.Professor.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Professor.Infrastructure/SistemaAcademicoBackend.Professor.Infrastructure.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Professor.Infrastructure/SistemaAcademicoBackend.Professor.Infrastructure.csproj"
+      "path": "../SistemaAcademico.Professor.Infrastructure/SistemaAcademico.Professor.Infrastructure.csproj",
+      "msbuildProject": "../SistemaAcademico.Professor.Infrastructure/SistemaAcademico.Professor.Infrastructure.csproj"
     },
-    "SistemaAcademicoBackend.Reports.Core/1.0.0": {
+    "SistemaAcademico.Reports.Core/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Reports.Core/SistemaAcademicoBackend.Reports.Core.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Reports.Core/SistemaAcademicoBackend.Reports.Core.csproj"
+      "path": "../SistemaAcademico.Reports.Core/SistemaAcademico.Reports.Core.csproj",
+      "msbuildProject": "../SistemaAcademico.Reports.Core/SistemaAcademico.Reports.Core.csproj"
     },
-    "SistemaAcademicoBackend.Reports.Infrastructure/1.0.0": {
+    "SistemaAcademico.Reports.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Reports.Infrastructure/SistemaAcademicoBackend.Reports.Infrastructure.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Reports.Infrastructure/SistemaAcademicoBackend.Reports.Infrastructure.csproj"
+      "path": "../SistemaAcademico.Reports.Infrastructure/SistemaAcademico.Reports.Infrastructure.csproj",
+      "msbuildProject": "../SistemaAcademico.Reports.Infrastructure/SistemaAcademico.Reports.Infrastructure.csproj"
     },
-    "SistemaAcademicoBackend.Retirement.Core/1.0.0": {
+    "SistemaAcademico.Retirement.Core/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Retirement.Core/SistemaAcademicoBackend.Retirement.Core.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Retirement.Core/SistemaAcademicoBackend.Retirement.Core.csproj"
+      "path": "../SistemaAcademico.Retirement.Core/SistemaAcademico.Retirement.Core.csproj",
+      "msbuildProject": "../SistemaAcademico.Retirement.Core/SistemaAcademico.Retirement.Core.csproj"
     },
-    "SistemaAcademicoBackend.Retirement.Infrastructure/1.0.0": {
+    "SistemaAcademico.Retirement.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.Retirement.Infrastructure/SistemaAcademicoBackend.Retirement.Infrastructure.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.Retirement.Infrastructure/SistemaAcademicoBackend.Retirement.Infrastructure.csproj"
+      "path": "../SistemaAcademico.Retirement.Infrastructure/SistemaAcademico.Retirement.Infrastructure.csproj",
+      "msbuildProject": "../SistemaAcademico.Retirement.Infrastructure/SistemaAcademico.Retirement.Infrastructure.csproj"
     },
-    "SistemaAcademicoBackend.SelecctionAndPreselecction.Core/1.0.0": {
+    "SistemaAcademico.SelecctionAndPreselecction.Core/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.SelecctionAndPreselecction.Core/SistemaAcademicoBackend.SelecctionAndPreselecction.Core.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.SelecctionAndPreselecction.Core/SistemaAcademicoBackend.SelecctionAndPreselecction.Core.csproj"
+      "path": "../SistemaAcademico.SelecctionAndPreselecction.Core/SistemaAcademico.SelecctionAndPreselecction.Core.csproj",
+      "msbuildProject": "../SistemaAcademico.SelecctionAndPreselecction.Core/SistemaAcademico.SelecctionAndPreselecction.Core.csproj"
     },
-    "SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure/1.0.0": {
+    "SistemaAcademico.SelecctionAndPreselecction.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure/SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure/SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.csproj"
+      "path": "../SistemaAcademico.SelecctionAndPreselecction.Infrastructure/SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj",
+      "msbuildProject": "../SistemaAcademico.SelecctionAndPreselecction.Infrastructure/SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj"
     },
-    "SistemaAcademicoBackend.SharedKernel.Core/1.0.0": {
+    "SistemaAcademico.SharedKernel.Core/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.SharedKernel.Core/SistemaAcademicoBackend.SharedKernel.Core.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.SharedKernel.Core/SistemaAcademicoBackend.SharedKernel.Core.csproj"
+      "path": "../SistemaAcademico.SharedKernel.Core/SistemaAcademico.SharedKernel.Core.csproj",
+      "msbuildProject": "../SistemaAcademico.SharedKernel.Core/SistemaAcademico.SharedKernel.Core.csproj"
     },
-    "SistemaAcademicoBackend.SharedKernel.Infrastructure/1.0.0": {
+    "SistemaAcademico.SharedKernel.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SistemaAcademicoBackend.SharedKernel.Infraestructure/SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj",
-      "msbuildProject": "../SistemaAcademicoBackend.SharedKernel.Infraestructure/SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
+      "path": "../SistemaAcademico.Infraestrucutre/SistemaAcademico.SharedKernel.Infrastructure.csproj",
+      "msbuildProject": "../SistemaAcademico.Infraestrucutre/SistemaAcademico.SharedKernel.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Design >= 8.0.22",
-      "SistemaAcademicoBackend.AcademicCatalog.Infrastructure >= 1.0.0",
-      "SistemaAcademicoBackend.AcademicProgress.Infrastructure >= 1.0.0",
-      "SistemaAcademicoBackend.Authentication.Infrastructure >= 1.0.0",
-      "SistemaAcademicoBackend.Dashboard.Infrastructure >= 1.0.0",
-      "SistemaAcademicoBackend.Payment.Infrastructure >= 1.0.0",
-      "SistemaAcademicoBackend.Professor.Infrastructure >= 1.0.0",
-      "SistemaAcademicoBackend.Reports.Infrastructure >= 1.0.0",
-      "SistemaAcademicoBackend.Retirement.Infrastructure >= 1.0.0",
-      "SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure >= 1.0.0",
-      "SistemaAcademicoBackend.SharedKernel.Infrastructure >= 1.0.0",
+      "SistemaAcademico.AcademicCatalog.Infrastructure >= 1.0.0",
+      "SistemaAcademico.AcademicProgress.Infrastructure >= 1.0.0",
+      "SistemaAcademico.Authentication.Infrastructure >= 1.0.0",
+      "SistemaAcademico.Dashboard.Infrastructure >= 1.0.0",
+      "SistemaAcademico.Payment.Infrastructure >= 1.0.0",
+      "SistemaAcademico.Professor.Infrastructure >= 1.0.0",
+      "SistemaAcademico.Reports.Infrastructure >= 1.0.0",
+      "SistemaAcademico.Retirement.Infrastructure >= 1.0.0",
+      "SistemaAcademico.SelecctionAndPreselecction.Infrastructure >= 1.0.0",
+      "SistemaAcademico.SharedKernel.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -3000,35 +3000,35 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure.csproj": {
-              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure\\SistemaAcademicoBackend.AcademicCatalog.Infrastructure.csproj"
+            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj": {
+              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj"
             },
-            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Infrastructure\\SistemaAcademicoBackend.AcademicProgress.Infrastructure.csproj": {
-              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.AcademicProgress.Infrastructure\\SistemaAcademicoBackend.AcademicProgress.Infrastructure.csproj"
+            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj": {
+              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj"
             },
-            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Infrastructure\\SistemaAcademicoBackend.Authentication.Infrastructure.csproj": {
-              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Authentication.Infrastructure\\SistemaAcademicoBackend.Authentication.Infrastructure.csproj"
+            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj": {
+              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj"
             },
-            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Infrastructure\\SistemaAcademicoBackend.Dashboard.Infrastructure.csproj": {
-              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Dashboard.Infrastructure\\SistemaAcademicoBackend.Dashboard.Infrastructure.csproj"
+            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj": {
+              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj"
             },
-            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Infrastructure\\SistemaAcademicoBackend.Payment.Infrastructure.csproj": {
-              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Payment.Infrastructure\\SistemaAcademicoBackend.Payment.Infrastructure.csproj"
+            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
             },
-            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Infrastructure\\SistemaAcademicoBackend.Professor.Infrastructure.csproj": {
-              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Professor.Infrastructure\\SistemaAcademicoBackend.Professor.Infrastructure.csproj"
+            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj": {
+              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj"
             },
-            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Infrastructure\\SistemaAcademicoBackend.Reports.Infrastructure.csproj": {
-              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Reports.Infrastructure\\SistemaAcademicoBackend.Reports.Infrastructure.csproj"
+            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj": {
+              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj"
             },
-            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Infrastructure\\SistemaAcademicoBackend.Retirement.Infrastructure.csproj": {
-              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.Retirement.Infrastructure\\SistemaAcademicoBackend.Retirement.Infrastructure.csproj"
+            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj": {
+              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj"
             },
-            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.csproj": {
-              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure\\SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.csproj"
+            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj": {
+              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj"
             },
-            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj": {
-              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademicoBackend.SharedKernel.Infraestructure\\SistemaAcademicoBackend.SharedKernel.Infrastructure.csproj"
+            "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj": {
+              "projectPath": "C:\\source\\SistemaAcademicoBackend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj"
             }
           }
         }

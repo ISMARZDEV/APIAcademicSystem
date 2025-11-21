@@ -9,16 +9,16 @@
       "SistemaAcademico.ApiGateway/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.22",
-          "SistemaAcademicoBackend.AcademicCatalog.Infrastructure": "1.0.0",
-          "SistemaAcademicoBackend.AcademicProgress.Infrastructure": "1.0.0",
-          "SistemaAcademicoBackend.Authentication.Infrastructure": "1.0.0",
-          "SistemaAcademicoBackend.Dashboard.Infrastructure": "1.0.0",
-          "SistemaAcademicoBackend.Payment.Infrastructure": "1.0.0",
-          "SistemaAcademicoBackend.Professor.Infrastructure": "1.0.0",
-          "SistemaAcademicoBackend.Reports.Infrastructure": "1.0.0",
-          "SistemaAcademicoBackend.Retirement.Infrastructure": "1.0.0",
-          "SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0",
+          "SistemaAcademico.AcademicCatalog.Infrastructure": "1.0.0",
+          "SistemaAcademico.AcademicProgress.Infrastructure": "1.0.0",
+          "SistemaAcademico.Authentication.Infrastructure": "1.0.0",
+          "SistemaAcademico.Dashboard.Infrastructure": "1.0.0",
+          "SistemaAcademico.Payment.Infrastructure": "1.0.0",
+          "SistemaAcademico.Professor.Infrastructure": "1.0.0",
+          "SistemaAcademico.Reports.Infrastructure": "1.0.0",
+          "SistemaAcademico.Retirement.Infrastructure": "1.0.0",
+          "SistemaAcademico.SelecctionAndPreselecction.Infrastructure": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -599,238 +599,238 @@
         }
       },
       "System.Threading.Channels/6.0.0": {},
-      "SistemaAcademicoBackend.AcademicCatalog.Core/1.0.0": {
+      "SistemaAcademico.AcademicCatalog.Core/1.0.0": {
         "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.AcademicCatalog.Core.dll": {
+          "SistemaAcademico.AcademicCatalog.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.AcademicCatalog.Infrastructure/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.AcademicCatalog.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
-        },
-        "runtime": {
-          "SistemaAcademicoBackend.AcademicCatalog.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "SistemaAcademicoBackend.AcademicProgress.Core/1.0.0": {
-        "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
-        },
-        "runtime": {
-          "SistemaAcademicoBackend.AcademicProgress.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "SistemaAcademicoBackend.AcademicProgress.Infrastructure/1.0.0": {
+      "SistemaAcademico.AcademicCatalog.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.AcademicProgress.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
+          "SistemaAcademico.AcademicCatalog.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.AcademicProgress.Infrastructure.dll": {
+          "SistemaAcademico.AcademicCatalog.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.Authentication.Core/1.0.0": {
+      "SistemaAcademico.AcademicProgress.Core/1.0.0": {
         "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.Authentication.Core.dll": {
+          "SistemaAcademico.AcademicProgress.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.Authentication.Infrastructure/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Authentication.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
-        },
-        "runtime": {
-          "SistemaAcademicoBackend.Authentication.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "SistemaAcademicoBackend.Dashboard.Core/1.0.0": {
-        "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
-        },
-        "runtime": {
-          "SistemaAcademicoBackend.Dashboard.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "SistemaAcademicoBackend.Dashboard.Infrastructure/1.0.0": {
+      "SistemaAcademico.AcademicProgress.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Dashboard.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
+          "SistemaAcademico.AcademicProgress.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.Dashboard.Infrastructure.dll": {
+          "SistemaAcademico.AcademicProgress.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.Payment.Core/1.0.0": {
+      "SistemaAcademico.Authentication.Core/1.0.0": {
         "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.Payment.Core.dll": {
+          "SistemaAcademico.Authentication.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.Payment.Infrastructure/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Payment.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
-        },
-        "runtime": {
-          "SistemaAcademicoBackend.Payment.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "SistemaAcademicoBackend.Professor.Core/1.0.0": {
-        "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
-        },
-        "runtime": {
-          "SistemaAcademicoBackend.Professor.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "SistemaAcademicoBackend.Professor.Infrastructure/1.0.0": {
+      "SistemaAcademico.Authentication.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Professor.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
+          "SistemaAcademico.Authentication.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.Professor.Infrastructure.dll": {
+          "SistemaAcademico.Authentication.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.Reports.Core/1.0.0": {
+      "SistemaAcademico.Dashboard.Core/1.0.0": {
         "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.Reports.Core.dll": {
+          "SistemaAcademico.Dashboard.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.Reports.Infrastructure/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Reports.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
-        },
-        "runtime": {
-          "SistemaAcademicoBackend.Reports.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "SistemaAcademicoBackend.Retirement.Core/1.0.0": {
-        "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
-        },
-        "runtime": {
-          "SistemaAcademicoBackend.Retirement.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "SistemaAcademicoBackend.Retirement.Infrastructure/1.0.0": {
+      "SistemaAcademico.Dashboard.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.Retirement.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
+          "SistemaAcademico.Dashboard.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.Retirement.Infrastructure.dll": {
+          "SistemaAcademico.Dashboard.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.SelecctionAndPreselecction.Core/1.0.0": {
+      "SistemaAcademico.Payment.Core/1.0.0": {
         "dependencies": {
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.SelecctionAndPreselecction.Core.dll": {
+          "SistemaAcademico.Payment.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure/1.0.0": {
+      "SistemaAcademico.Payment.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "SistemaAcademicoBackend.SelecctionAndPreselecction.Core": "1.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure": "1.0.0"
+          "SistemaAcademico.Payment.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure.dll": {
+          "SistemaAcademico.Payment.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.SharedKernel.Core/1.0.0": {
+      "SistemaAcademico.Professor.Core/1.0.0": {
+        "dependencies": {
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
+        },
         "runtime": {
-          "SistemaAcademicoBackend.SharedKernel.Core.dll": {
+          "SistemaAcademico.Professor.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SistemaAcademicoBackend.SharedKernel.Infrastructure/1.0.0": {
+      "SistemaAcademico.Professor.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "SistemaAcademico.Professor.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "SistemaAcademico.Professor.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaAcademico.Reports.Core/1.0.0": {
+        "dependencies": {
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
+        },
+        "runtime": {
+          "SistemaAcademico.Reports.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaAcademico.Reports.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "SistemaAcademico.Reports.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "SistemaAcademico.Reports.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaAcademico.Retirement.Core/1.0.0": {
+        "dependencies": {
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
+        },
+        "runtime": {
+          "SistemaAcademico.Retirement.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaAcademico.Retirement.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "SistemaAcademico.Retirement.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "SistemaAcademico.Retirement.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaAcademico.SelecctionAndPreselecction.Core/1.0.0": {
+        "dependencies": {
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
+        },
+        "runtime": {
+          "SistemaAcademico.SelecctionAndPreselecction.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaAcademico.SelecctionAndPreselecction.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "SistemaAcademico.SelecctionAndPreselecction.Core": "1.0.0",
+          "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "SistemaAcademico.SelecctionAndPreselecction.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaAcademico.SharedKernel.Core/1.0.0": {
+        "runtime": {
+          "SistemaAcademico.SharedKernel.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaAcademico.SharedKernel.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0",
-          "SistemaAcademicoBackend.SharedKernel.Core": "1.0.0"
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "runtime": {
-          "SistemaAcademicoBackend.SharedKernel.Infrastructure.dll": {
+          "SistemaAcademico.SharedKernel.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1159,102 +1159,102 @@
       "path": "system.threading.channels/6.0.0",
       "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
     },
-    "SistemaAcademicoBackend.AcademicCatalog.Core/1.0.0": {
+    "SistemaAcademico.AcademicCatalog.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.AcademicCatalog.Infrastructure/1.0.0": {
+    "SistemaAcademico.AcademicCatalog.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.AcademicProgress.Core/1.0.0": {
+    "SistemaAcademico.AcademicProgress.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.AcademicProgress.Infrastructure/1.0.0": {
+    "SistemaAcademico.AcademicProgress.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Authentication.Core/1.0.0": {
+    "SistemaAcademico.Authentication.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Authentication.Infrastructure/1.0.0": {
+    "SistemaAcademico.Authentication.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Dashboard.Core/1.0.0": {
+    "SistemaAcademico.Dashboard.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Dashboard.Infrastructure/1.0.0": {
+    "SistemaAcademico.Dashboard.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Payment.Core/1.0.0": {
+    "SistemaAcademico.Payment.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Payment.Infrastructure/1.0.0": {
+    "SistemaAcademico.Payment.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Professor.Core/1.0.0": {
+    "SistemaAcademico.Professor.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Professor.Infrastructure/1.0.0": {
+    "SistemaAcademico.Professor.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Reports.Core/1.0.0": {
+    "SistemaAcademico.Reports.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Reports.Infrastructure/1.0.0": {
+    "SistemaAcademico.Reports.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Retirement.Core/1.0.0": {
+    "SistemaAcademico.Retirement.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.Retirement.Infrastructure/1.0.0": {
+    "SistemaAcademico.Retirement.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.SelecctionAndPreselecction.Core/1.0.0": {
+    "SistemaAcademico.SelecctionAndPreselecction.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.SelecctionAndPreselecction.Infrastructure/1.0.0": {
+    "SistemaAcademico.SelecctionAndPreselecction.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.SharedKernel.Core/1.0.0": {
+    "SistemaAcademico.SharedKernel.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SistemaAcademicoBackend.SharedKernel.Infrastructure/1.0.0": {
+    "SistemaAcademico.SharedKernel.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
