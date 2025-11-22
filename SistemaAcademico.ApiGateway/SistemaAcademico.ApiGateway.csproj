@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.22">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Middleware\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaAcademico.AcademicCatalog.Infrastructure\SistemaAcademico.AcademicCatalog.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.AcademicProgress.Infrastructure\SistemaAcademico.AcademicProgress.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Authentication.Infrastructure\SistemaAcademico.Authentication.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Dashboard.Infrastructure\SistemaAcademico.Dashboard.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Infraestrucutre\SistemaAcademico.SharedKernel.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Payment.Infrastructure\SistemaAcademico.Payment.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Professor.Infrastructure\SistemaAcademico.Professor.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Reports.Infrastructure\SistemaAcademico.Reports.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Retirement.Infrastructure\SistemaAcademico.Retirement.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
