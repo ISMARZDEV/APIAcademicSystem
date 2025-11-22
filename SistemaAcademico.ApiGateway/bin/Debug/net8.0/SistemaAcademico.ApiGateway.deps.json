@@ -9,11 +9,13 @@
       "SistemaAcademico.ApiGateway/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.22",
+          "Pomelo.EntityFrameworkCore.MySql": "9.0.0",
           "SistemaAcademico.AcademicCatalog.Infrastructure": "1.0.0",
           "SistemaAcademico.AcademicProgress.Infrastructure": "1.0.0",
           "SistemaAcademico.Authentication.Infrastructure": "1.0.0",
           "SistemaAcademico.Dashboard.Infrastructure": "1.0.0",
           "SistemaAcademico.Payment.Infrastructure": "1.0.0",
+          "SistemaAcademico.Persistence": "1.0.0",
           "SistemaAcademico.Professor.Infrastructure": "1.0.0",
           "SistemaAcademico.Reports.Infrastructure": "1.0.0",
           "SistemaAcademico.Retirement.Infrastructure": "1.0.0",
@@ -605,7 +607,7 @@
         },
         "runtime": {
           "SistemaAcademico.AcademicCatalog.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -618,7 +620,7 @@
         },
         "runtime": {
           "SistemaAcademico.AcademicCatalog.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -629,7 +631,7 @@
         },
         "runtime": {
           "SistemaAcademico.AcademicProgress.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -642,7 +644,7 @@
         },
         "runtime": {
           "SistemaAcademico.AcademicProgress.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -653,7 +655,7 @@
         },
         "runtime": {
           "SistemaAcademico.Authentication.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -666,7 +668,7 @@
         },
         "runtime": {
           "SistemaAcademico.Authentication.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -677,7 +679,7 @@
         },
         "runtime": {
           "SistemaAcademico.Dashboard.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -690,7 +692,7 @@
         },
         "runtime": {
           "SistemaAcademico.Dashboard.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -701,7 +703,7 @@
         },
         "runtime": {
           "SistemaAcademico.Payment.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -714,7 +716,21 @@
         },
         "runtime": {
           "SistemaAcademico.Payment.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaAcademico.Persistence/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.0",
+          "Pomelo.EntityFrameworkCore.MySql": "9.0.0",
+          "SistemaAcademico.SharedKernel.Core": "1.0.0"
+        },
+        "runtime": {
+          "SistemaAcademico.Persistence.dll": {
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -725,7 +741,7 @@
         },
         "runtime": {
           "SistemaAcademico.Professor.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -738,7 +754,7 @@
         },
         "runtime": {
           "SistemaAcademico.Professor.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -749,7 +765,7 @@
         },
         "runtime": {
           "SistemaAcademico.Reports.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -762,7 +778,7 @@
         },
         "runtime": {
           "SistemaAcademico.Reports.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -773,7 +789,7 @@
         },
         "runtime": {
           "SistemaAcademico.Retirement.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -786,7 +802,7 @@
         },
         "runtime": {
           "SistemaAcademico.Retirement.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -797,7 +813,7 @@
         },
         "runtime": {
           "SistemaAcademico.SelecctionAndPreselecction.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -810,7 +826,7 @@
         },
         "runtime": {
           "SistemaAcademico.SelecctionAndPreselecction.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -818,7 +834,7 @@
       "SistemaAcademico.SharedKernel.Core/1.0.0": {
         "runtime": {
           "SistemaAcademico.SharedKernel.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -831,7 +847,7 @@
         },
         "runtime": {
           "SistemaAcademico.SharedKernel.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1205,6 +1221,11 @@
       "sha512": ""
     },
     "SistemaAcademico.Payment.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SistemaAcademico.Persistence/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
