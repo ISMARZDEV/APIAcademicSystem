@@ -11,6 +11,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
@@ -31,6 +32,7 @@
     <ProjectReference Include="..\SistemaAcademico.Reports.Infrastructure\SistemaAcademico.Reports.Infrastructure.csproj" />
     <ProjectReference Include="..\SistemaAcademico.Retirement.Infrastructure\SistemaAcademico.Retirement.Infrastructure.csproj" />
     <ProjectReference Include="..\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Persistence\SistemaAcademico.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
