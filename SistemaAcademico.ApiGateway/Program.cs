@@ -1,6 +1,20 @@
-using SistemaAcademico.Authentication.Infrastructure;
+using Microsoft.EntityFrameworkCore;
+using SistemaAcademico.Persistence.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+//Sistema Academico DB Context
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+
+var serverVersion = ServerVersion.AutoDetect(connectionString);
+
+
+builder.Services.AddDbContext<SistemaAcademicoContext>(options =>
+{
+    options.UseMySql(connectionString, serverVersion);
+});
 
 // Add services to the container.
 
