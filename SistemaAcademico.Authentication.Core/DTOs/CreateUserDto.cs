@@ -22,7 +22,6 @@ namespace SistemaAcademico.Authentication.Core.DTOs
         public string CorreoPersonal { get; set; } = string.Empty;
 
         [Required, EmailAddress]
-        // Este será tu CorreoInstitucional
         public string CorreoInstitucional { get; set; } = string.Empty;
 
         [Required]
