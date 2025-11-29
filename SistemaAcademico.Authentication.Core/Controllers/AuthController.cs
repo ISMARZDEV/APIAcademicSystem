@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SistemaAcademico.Authentication.Core.DTOs;
 using SistemaAcademico.Authentication.Core.Interfaces;
 using System;
@@ -25,7 +26,7 @@ namespace SistemaAcademico.Authentication.Core.Controllers
         
         [HttpPost("create-user")]
         // TODO: Descomentar la línea siguiente despues de crear el primer user admin
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> CreateUser([FromBody] CreateUserDto request)
         {
             try

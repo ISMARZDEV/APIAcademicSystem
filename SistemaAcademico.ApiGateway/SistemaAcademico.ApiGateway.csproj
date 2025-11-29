@@ -33,6 +33,7 @@
     <ProjectReference Include="..\SistemaAcademico.Retirement.Infrastructure\SistemaAcademico.Retirement.Infrastructure.csproj" />
     <ProjectReference Include="..\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj" />
     <ProjectReference Include="..\SistemaAcademico.Persistence\SistemaAcademico.Persistence.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Authentication.Core\SistemaAcademico.Authentication.Core.csproj" />
   </ItemGroup>
 
 </Project>

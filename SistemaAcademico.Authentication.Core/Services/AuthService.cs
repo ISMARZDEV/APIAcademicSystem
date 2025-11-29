@@ -1,11 +1,14 @@
-﻿using SistemaAcademico.Authentication.Core.DTOs;
-using SistemaAcademico.Authentication.Core.Entities;
-using SistemaAcademico.Authentication.Core.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BCrypt.Net;
+using Microsoft.EntityFrameworkCore;
+using SistemaAcademico.Authentication.Core.DTOs;
+using SistemaAcademico.Authentication.Core.Interfaces;
+using SistemaAcademico.Persistence.Models;
+using SistemaAcademico.Persistence;
 
 namespace SistemaAcademico.Authentication.Core.Services
 {

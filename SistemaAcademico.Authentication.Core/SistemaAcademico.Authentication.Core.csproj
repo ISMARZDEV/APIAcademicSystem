@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SistemaAcademico.SharedKernel.Core\SistemaAcademico.SharedKernel.Core.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Persistence\SistemaAcademico.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

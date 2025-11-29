@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using SistemaAcademico.Authentication.Infrastructure;
 using SistemaAcademico.Persistence.Models;
 
 var builder = WebApplication.CreateBuilder(args);
