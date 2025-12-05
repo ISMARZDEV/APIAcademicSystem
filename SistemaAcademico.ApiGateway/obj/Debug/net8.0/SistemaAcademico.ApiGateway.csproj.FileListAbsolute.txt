@@ -312,3 +312,4 @@ C:\Users\alane\Desktop\Clases INTEC\Trimestre 11\Construccion de Software Lab\Si
 C:\Users\alane\Desktop\Clases INTEC\Trimestre 11\Construccion de Software Lab\SistemaAcademico.ApiGateway\obj\Debug\net8.0\SistemaAcademico.ApiGateway.pdb
 C:\Users\alane\Desktop\Clases INTEC\Trimestre 11\Construccion de Software Lab\SistemaAcademico.ApiGateway\obj\Debug\net8.0\SistemaAcademico.ApiGateway.genruntimeconfig.cache
 C:\Users\alane\Desktop\Clases INTEC\Trimestre 11\Construccion de Software Lab\SistemaAcademico.ApiGateway\obj\Debug\net8.0\ref\SistemaAcademico.ApiGateway.dll
+C:\Users\alane\Desktop\Clases INTEC\Trimestre 11\Construccion de Software Lab\SistemaAcademico.ApiGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
