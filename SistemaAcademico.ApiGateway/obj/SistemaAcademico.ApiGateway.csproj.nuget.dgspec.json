@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj": {}
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj",
         "projectName": "SistemaAcademico.AcademicCatalog.Core",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Core\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -49,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -70,24 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj",
         "projectName": "SistemaAcademico.AcademicCatalog.Infrastructure",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -96,18 +95,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Core\\SistemaAcademico.AcademicCatalog.Core.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               }
             }
           }
@@ -122,7 +120,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -149,24 +147,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj",
         "projectName": "SistemaAcademico.AcademicProgress.Core",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Core\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -175,15 +173,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -198,7 +195,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -219,24 +216,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj",
         "projectName": "SistemaAcademico.AcademicProgress.Infrastructure",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -245,21 +242,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Core\\SistemaAcademico.AcademicProgress.Core.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
-              },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               }
             }
           }
@@ -274,7 +267,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -301,24 +294,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj",
         "projectName": "SistemaAcademico.ApiGateway",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.ApiGateway\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -327,45 +320,44 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj"
               }
             }
           }
@@ -380,7 +372,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -420,24 +412,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj",
         "projectName": "SistemaAcademico.Authentication.Core",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Core\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -446,15 +438,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -469,7 +460,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -490,24 +481,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj",
         "projectName": "SistemaAcademico.Authentication.Infrastructure",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -516,18 +507,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               }
             }
           }
@@ -542,7 +532,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -569,24 +559,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj",
         "projectName": "SistemaAcademico.Dashboard.Core",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Core\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -595,15 +585,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -618,7 +607,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -639,24 +628,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj",
         "projectName": "SistemaAcademico.Dashboard.Infrastructure",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -665,18 +654,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Core\\SistemaAcademico.Dashboard.Core.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               }
             }
           }
@@ -691,7 +679,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -718,24 +706,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj",
         "projectName": "SistemaAcademico.SharedKernel.Infrastructure",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -744,15 +732,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -767,7 +754,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -804,24 +791,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj",
         "projectName": "SistemaAcademico.Payment.Core",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Core\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -830,15 +817,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -853,7 +839,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -874,24 +860,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj",
         "projectName": "SistemaAcademico.Payment.Infrastructure",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -900,18 +886,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Core\\SistemaAcademico.Payment.Core.csproj"
               }
             }
           }
@@ -926,7 +911,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -953,24 +938,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj",
         "projectName": "SistemaAcademico.Persistence",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -979,15 +964,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -1002,7 +986,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1043,24 +1027,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj",
         "projectName": "SistemaAcademico.Professor.Core",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Core\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1069,15 +1053,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -1092,7 +1075,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1113,24 +1096,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj",
         "projectName": "SistemaAcademico.Professor.Infrastructure",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1139,18 +1122,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Core\\SistemaAcademico.Professor.Core.csproj"
               }
             }
           }
@@ -1165,7 +1147,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1192,24 +1174,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj",
         "projectName": "SistemaAcademico.Reports.Core",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Core\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1218,15 +1200,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -1241,7 +1222,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1262,24 +1243,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj",
         "projectName": "SistemaAcademico.Reports.Infrastructure",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1288,18 +1269,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Core\\SistemaAcademico.Reports.Core.csproj"
               }
             }
           }
@@ -1314,7 +1294,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1341,24 +1321,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj",
         "projectName": "SistemaAcademico.Retirement.Core",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Core\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1367,15 +1347,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -1390,7 +1369,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1411,24 +1390,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj",
         "projectName": "SistemaAcademico.Retirement.Infrastructure",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1437,18 +1416,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Core\\SistemaAcademico.Retirement.Core.csproj"
               }
             }
           }
@@ -1463,7 +1441,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1490,24 +1468,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj",
         "projectName": "SistemaAcademico.SelecctionAndPreselecction.Core",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Core\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1516,15 +1494,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
             }
           }
@@ -1539,7 +1516,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1560,24 +1537,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj",
         "projectName": "SistemaAcademico.SelecctionAndPreselecction.Infrastructure",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1586,18 +1563,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
               },
-              "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj": {
-                "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj"
+              "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj": {
+                "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Core\\SistemaAcademico.SelecctionAndPreselecction.Core.csproj"
               }
             }
           }
@@ -1612,7 +1588,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1639,24 +1615,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
+    "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj",
         "projectName": "SistemaAcademico.SharedKernel.Core",
-        "projectPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edgar\\Source\\Repos\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\obj\\",
+        "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj",
+        "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SharedKernel.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1665,7 +1641,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1684,7 +1659,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1705,7 +1680,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -17,7 +17,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SistemaAcademico.AcademicProgress.Core\SistemaAcademico.AcademicProgress.Core.csproj" />
-    <ProjectReference Include="..\SistemaAcademico.Persistence\SistemaAcademico.Persistence.csproj" />
     <ProjectReference Include="..\SistemaAcademico.Infraestrucutre\SistemaAcademico.SharedKernel.Infrastructure.csproj" />
   </ItemGroup>
 
