@@ -337,6 +337,9 @@
               "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj"
               },
+              "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Core\\SistemaAcademico.Authentication.Core.csproj"
+              },
               "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj"
               },
@@ -450,6 +453,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj"
+              },
               "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj": {
                 "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SharedKernel.Core\\SistemaAcademico.SharedKernel.Core.csproj"
               }
@@ -471,6 +477,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

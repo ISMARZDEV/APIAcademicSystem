@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaAcademico.ApiGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b96dc81320a98e46a2e43c2f1987aa32e4cab451")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ec09e26932851f162bec59f013401038c615b1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaAcademico.ApiGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaAcademico.ApiGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
