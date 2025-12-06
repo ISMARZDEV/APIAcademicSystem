@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Persistence\Configurations\" />
-    <Folder Include="Persistence\Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SistemaAcademico.AcademicProgress.Core\SistemaAcademico.AcademicProgress.Core.csproj" />
     <ProjectReference Include="..\SistemaAcademico.Infraestrucutre\SistemaAcademico.SharedKernel.Infrastructure.csproj" />
+    <ProjectReference Include="..\SistemaAcademico.Persistence\SistemaAcademico.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
