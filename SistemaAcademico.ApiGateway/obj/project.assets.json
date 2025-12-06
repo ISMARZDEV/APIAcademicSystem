@@ -1141,6 +1141,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "SistemaAcademico.Persistence": "1.0.0",
           "SistemaAcademico.SharedKernel.Core": "1.0.0"
         },
         "compile": {
@@ -2992,23 +2993,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alane\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj",
       "projectName": "SistemaAcademico.ApiGateway",
-      "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj",
-      "packagesPath": "C:\\Users\\alane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.ApiGateway\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.ApiGateway\\SistemaAcademico.ApiGateway.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.ApiGateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\alane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3017,44 +3018,45 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicCatalog.Infrastructure\\SistemaAcademico.AcademicCatalog.Infrastructure.csproj"
             },
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.AcademicProgress.Infrastructure\\SistemaAcademico.AcademicProgress.Infrastructure.csproj"
             },
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Authentication.Infrastructure\\SistemaAcademico.Authentication.Infrastructure.csproj"
             },
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Dashboard.Infrastructure\\SistemaAcademico.Dashboard.Infrastructure.csproj"
             },
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Infraestrucutre\\SistemaAcademico.SharedKernel.Infrastructure.csproj"
             },
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Payment.Infrastructure\\SistemaAcademico.Payment.Infrastructure.csproj"
             },
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Persistence\\SistemaAcademico.Persistence.csproj"
             },
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Professor.Infrastructure\\SistemaAcademico.Professor.Infrastructure.csproj"
             },
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Reports.Infrastructure\\SistemaAcademico.Reports.Infrastructure.csproj"
             },
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.Retirement.Infrastructure\\SistemaAcademico.Retirement.Infrastructure.csproj"
             },
-            "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alane\\Desktop\\Clases INTEC\\Trimestre 11\\Construccion de Software Lab\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj"
+            "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\nov-ene-pf-seleccion-backend\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure\\SistemaAcademico.SelecctionAndPreselecction.Infrastructure.csproj"
             }
           }
         }
@@ -3069,7 +3071,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -3109,7 +3111,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

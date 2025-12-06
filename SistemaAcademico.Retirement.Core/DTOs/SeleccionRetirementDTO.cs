@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SistemaAcademico.Retirement.Core.DTOs
+{
+    public class SeleccionRetirementDTO
+    {
+        public int IdUsuario { get; set; }
+
+        public int IdSeccion { get; set; }
+
+        public string PeriodoAcademico { get; set; } = null!;
+
+        public string Asignatura { get; set; } = null!;
+
+        public string Estado { get; set; } = null!;
+    }
+}
