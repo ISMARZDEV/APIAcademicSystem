@@ -472,3 +472,4 @@ C:\Users\DELL\Desktop\nov-ene-pf-seleccion-backend\SistemaAcademico.ApiGateway\o
 C:\Users\DELL\Desktop\nov-ene-pf-seleccion-backend\SistemaAcademico.ApiGateway\obj\Debug\net8.0\SistemaAcademico.ApiGateway.pdb
 C:\Users\DELL\Desktop\nov-ene-pf-seleccion-backend\SistemaAcademico.ApiGateway\obj\Debug\net8.0\SistemaAcademico.ApiGateway.genruntimeconfig.cache
 C:\Users\DELL\Desktop\nov-ene-pf-seleccion-backend\SistemaAcademico.ApiGateway\obj\Debug\net8.0\ref\SistemaAcademico.ApiGateway.dll
+C:\Users\DELL\Desktop\nov-ene-pf-seleccion-backend\SistemaAcademico.ApiGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

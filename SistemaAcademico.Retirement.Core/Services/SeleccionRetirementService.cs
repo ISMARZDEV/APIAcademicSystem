@@ -11,18 +11,21 @@ using Microsoft.EntityFrameworkCore;
 
 namespace SistemaAcademico.Retirement.Core.Services
 {
-    internal class SeleccionRetirementService(SistemaAcademicoContext context) : ISeleccionRetirementService
+    public class SeleccionRetirementService(SistemaAcademicoContext context) : ISeleccionRetirementService
     {
 
         public async Task<string> Retirar(SeleccionRetirementDTO slrDTO)
         {
-            var rets = await context.Seleccions.CountAsync(rets => rets.Asignatura == slrDTO.Asignatura && rets.IdUsuario == slrDTO.IdUsuario);
+            var rets = await context.Seleccions.CountAsync(rets => rets.Asignatura == slrDTO.Asignatura && rets.IdUsuario == slrDTO.IdUsuario
+            && rets.Estado == "Retirado");
             if(rets >= 3) return "Ya se ha retirado 3 veces en la misma asignatura";
-            var sel = await context.Seleccions.FirstOrDefaultAsync(sel => sel.IdSeccion == slrDTO.IdSeccion && sel.IdUsuario == slrDTO.IdUsuario);
-            if (sel == null) return "Usted no está inscrito a esta seccion de la asignatura";
-            sel.Estado = "retirado";
+            var sel = await context.Seleccions.FirstOrDefaultAsync(sel => sel.IdSeccion == slrDTO.IdSeccion && sel.IdUsuario == slrDTO.IdUsuario
+            && sel.Estado != "Retirado");
+            if (sel == null) return "Usted no está inscrito a esta sección de la asignatura, esta no existe o ya se ha retirado";
+            sel.Estado = "Retirado";
+            sel.Comentario = slrDTO.Comentario;
             
-            context.SaveChanges();
+            await context.SaveChangesAsync();
             
             return "Ha retirado la asignatura este trimestre";
         }
