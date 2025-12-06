@@ -1,5 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using SistemaAcademico.Persistence.Models;
+using SistemaAcademico.AcademicProgress.Core.Interfaces;
+using SistemaAcademico.AcademicProgress.Core.Services;
+using SistemaAcademico.AcademicProgress.Infrastructure.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +20,10 @@ builder.Services.AddDbContext<SistemaAcademicoContext>(options =>
 });
 
 // Add services to the container.
+
+// Register the services for the AcademicProgress module
+builder.Services.AddScoped<IAcademicProgressService, AcademicProgressService>();
+builder.Services.AddScoped<IAcademicProgressRepository, AcademicProgressRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
