@@ -814,6 +814,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "SistemaAcademico.AcademicProgress.Core": "1.0.0",
+          "SistemaAcademico.Persistence": "1.0.0",
           "SistemaAcademico.SharedKernel.Infrastructure": "1.0.0"
         },
         "runtime": {
