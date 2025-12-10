@@ -473,3 +473,8 @@ C:\Users\DELL\Desktop\nov-ene-pf-seleccion-backend\SistemaAcademico.ApiGateway\o
 C:\Users\DELL\Desktop\nov-ene-pf-seleccion-backend\SistemaAcademico.ApiGateway\obj\Debug\net8.0\SistemaAcademico.ApiGateway.genruntimeconfig.cache
 C:\Users\DELL\Desktop\nov-ene-pf-seleccion-backend\SistemaAcademico.ApiGateway\obj\Debug\net8.0\ref\SistemaAcademico.ApiGateway.dll
 C:\Users\DELL\Desktop\nov-ene-pf-seleccion-backend\SistemaAcademico.ApiGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\alane\Desktop\Clases INTEC\Trimestre 11\Construccion de Software Lab\SistemaAcademico.ApiGateway\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\alane\Desktop\Clases INTEC\Trimestre 11\Construccion de Software Lab\SistemaAcademico.ApiGateway\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\alane\Desktop\Clases INTEC\Trimestre 11\Construccion de Software Lab\SistemaAcademico.ApiGateway\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\alane\Desktop\Clases INTEC\Trimestre 11\Construccion de Software Lab\SistemaAcademico.ApiGateway\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\alane\Desktop\Clases INTEC\Trimestre 11\Construccion de Software Lab\SistemaAcademico.ApiGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
