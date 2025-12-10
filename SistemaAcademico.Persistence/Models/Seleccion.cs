@@ -10,9 +10,13 @@ public partial class Seleccion
     public int IdSeccion { get; set; }
 
     public int? Calificacion { get; set; }
+<<<<<<< HEAD
+     
+=======
 
     public int? Calificacion_Mediotermino { get; set; }
 
+>>>>>>> 637a63f671d6a0ae1fc354a3b0095e27a085a0b2
     public string PeriodoAcademico { get; set; } = null!;
 
     public string Asignatura { get; set; } = null!;
