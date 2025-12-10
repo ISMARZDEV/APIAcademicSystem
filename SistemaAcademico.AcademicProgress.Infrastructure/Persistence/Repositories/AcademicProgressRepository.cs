@@ -50,5 +50,39 @@ namespace SistemaAcademico.AcademicProgress.Infrastructure.Persistence.Repositor
 
             return await query.ToListAsync();
         }
+
+        /// <inheritdoc />
+        public async Task<IEnumerable<CourseDetailInfo>> GetGradesByPeriodAsync(int studentId, string period, IEnumerable<string> states)
+        {
+            var studentProgram = await _dbContext.UsuarioProgramaAcademicos
+                .FirstOrDefaultAsync(upa => upa.IdUsuario == studentId && upa.Estatus == "Activo");
+
+            if (studentProgram == null)
+            {
+                return Enumerable.Empty<CourseDetailInfo>();
+            }
+
+            var query =
+                from seleccion in _dbContext.Seleccions
+                join seccion in _dbContext.Seccions on seleccion.IdSeccion equals seccion.SeccionId
+                join asignatura in _dbContext.Asignaturas on seccion.IdAsignatura equals asignatura.AsignaturaId
+                join apa in _dbContext.AsignaturaProgramaAcademicos on new { IdAsignatura = asignatura.AsignaturaId, IdProgramaAcademico = studentProgram.IdProgramaAcademico } equals new { apa.IdAsignatura, apa.IdProgramaAcademico }
+                join student in _dbContext.Usuarios on seleccion.IdUsuario equals student.IdUsuario
+                where seleccion.IdUsuario == studentId
+                      && seleccion.PeriodoAcademico == period
+                      && states.Contains(seleccion.Estado) // Filter by the provided states
+                select new CourseDetailInfo
+                {
+                    CourseCode = asignatura.AsignaturaId.ToString(),
+                    CourseName = asignatura.Nombre,
+                    Credits = apa.Creditos,
+                    FinalGrade = seleccion.Calificacion,
+                    MidtermGrade = seleccion.Calificacion_Mediotermino,
+                    StudentName = student.Nombre + " " + student.Apellido,
+                    Status = seleccion.Estado // Select the status
+                };
+
+            return await query.ToListAsync();
+        }
     }
 }

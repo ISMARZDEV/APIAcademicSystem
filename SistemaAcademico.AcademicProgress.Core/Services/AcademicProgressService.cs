@@ -52,6 +52,74 @@ namespace SistemaAcademico.AcademicProgress.Core.Services
             };
         }
 
+        /// <inheritdoc />
+        public async Task<GradeReportDto?> GetFinalGradesReportAsync(int studentId, int year, int trimester)
+        {
+            var period = $"{year}-T{trimester}"; // Corrected period format
+            var statesToInclude = new[] { "Aprobando", "Reprobado", "Retirado" };
+            var gradesData = await _repository.GetGradesByPeriodAsync(studentId, period, statesToInclude);
+
+            if (!gradesData.Any()) return null;
+
+            var report = new GradeReportDto
+            {
+                StudentName = gradesData.FirstOrDefault()?.StudentName ?? string.Empty,
+                Period = period,
+                Courses = gradesData.Select(g => new CourseGradeDto
+                {
+                    CourseName = g.CourseName,
+                    Credits = g.Credits,
+                    // NumericGrade is intentionally left null
+                    // Buisness rule: only LetterGrade is provided for final grades report
+                    LetterGrade = g.Status == "Retirado"
+                        ? "R"
+                        : g.FinalGrade.HasValue ? ConvertToLetterGrade(g.FinalGrade.Value) : null
+                }).ToList()
+            };
+
+            return report;
+        }
+
+        /// <inheritdoc />
+        public async Task<GradeReportDto?> GetMidtermGradesReportAsync(int studentId, int year, int trimester)
+        {
+            var period = $"{year}-T{trimester}"; // Corrected period format
+            var statesToInclude = new[] { "Cursando", "Retirado", "Aprobando", "Reprobado" };
+            var gradesData = await _repository.GetGradesByPeriodAsync(studentId, period, statesToInclude);
+
+            if (!gradesData.Any()) return null;
+
+            var report = new GradeReportDto
+            {
+                StudentName = gradesData.FirstOrDefault()?.StudentName ?? string.Empty,
+                Period = period,
+                Courses = gradesData.Select(g => new CourseGradeDto
+                {
+                    CourseName = g.CourseName,
+                    Credits = g.Credits,
+                    NumericGrade = g.Status == "Retirado" ? null : g.MidtermGrade,
+                    LetterGrade = g.Status == "Retirado" ? "R" : null
+                }).ToList()
+            };
+
+            return report;
+        }
+
+        private string ConvertToLetterGrade(int nota)
+        {
+            return nota switch
+            {
+                >= 95 => "A+",
+                >= 90 => "A",
+                >= 85 => "B+",
+                >= 80 => "B",
+                >= 75 => "C+",
+                >= 70 => "C",
+                >= 60 => "D",
+                _ => "F"
+            };
+        }
+
         /// <summary>
         /// Calcula el promedio ponderado para una lista de calificaciones.
         /// </summary>
