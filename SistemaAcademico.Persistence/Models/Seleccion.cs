@@ -13,6 +13,7 @@ public partial class Seleccion
 
     public int? Calificacion_Mediotermino { get; set; }
 
+
     public string PeriodoAcademico { get; set; } = null!;
 
     public string Asignatura { get; set; } = null!;
