@@ -21,4 +21,8 @@
 		<ProjectReference Include="..\SistemaAcademico.SharedKernel.Core\SistemaAcademico.SharedKernel.Core.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Data/Responses/" />
+	</ItemGroup>
+
 </Project>

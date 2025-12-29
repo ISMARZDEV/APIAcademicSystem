@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Constants/" />
     <Folder Include="Extensions\" />
     <Folder Include="Middleware\" />
   </ItemGroup>
