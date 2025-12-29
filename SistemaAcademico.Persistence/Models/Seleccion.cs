@@ -1,28 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
+using SistemaAcademico.Persistence.Data;
 
 namespace SistemaAcademico.Persistence.Models;
 
 public partial class Seleccion
 {
+    public int Id { get; set; }
+
     public int IdUsuario { get; set; }
 
     public int IdSeccion { get; set; }
 
-    public int? Calificacion { get; set; }
+    public int IdPeriodo { get; set; }
 
-    public int? Calificacion_Mediotermino { get; set; }
+    public bool VieneDePreseleccion { get; set; }
 
+    public DateTime FechaConfirmacion { get; set; }
 
-    public string PeriodoAcademico { get; set; } = null!;
+    public decimal? Calificacion { get; set; }
 
-    public string Asignatura { get; set; } = null!;
-
-    public string Estado { get; set; } = null!;
-
-    public string Comentario { get; set; } = null!;
+    public SeleccionEstatus EstatusAcademico { get; set; }
 
     public virtual Seccion IdSeccionNavigation { get; set; } = null!;
 
     public virtual Usuario IdUsuarioNavigation { get; set; } = null!;
+
+    public virtual PeriodoConfig IdPeriodoNavigation { get; set; } = null!;
 }

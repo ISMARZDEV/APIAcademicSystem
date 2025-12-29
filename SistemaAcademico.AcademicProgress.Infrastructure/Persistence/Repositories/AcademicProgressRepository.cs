@@ -2,6 +2,7 @@
 using SistemaAcademico.AcademicProgress.Core.Entities;
 using SistemaAcademico.AcademicProgress.Core.Interfaces;
 using SistemaAcademico.Persistence.Models; // Using the correct models namespace
+using SistemaAcademico.Persistence.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -36,16 +37,17 @@ namespace SistemaAcademico.AcademicProgress.Infrastructure.Persistence.Repositor
             var query =
                 from seleccion in _dbContext.Seleccions
                 join seccion in _dbContext.Seccions on seleccion.IdSeccion equals seccion.SeccionId
+                join periodo in _dbContext.PeriodoConfigs on seleccion.IdPeriodo equals periodo.Id
                 // Unir con AsignaturaProgramaAcademico usando tanto el ID de la asignatura como el ID del programa del estudiante.
                 join apa in _dbContext.AsignaturaProgramaAcademicos on new { seccion.IdAsignatura, IdProgramaAcademico = studentProgram.IdProgramaAcademico } equals new { apa.IdAsignatura, apa.IdProgramaAcademico }
                 where seleccion.IdUsuario == estudianteId
                       && seleccion.Calificacion.HasValue
-                      && (seleccion.Estado == "Aprobando" || seleccion.Estado == "Reprobado")
+                      && (seleccion.EstatusAcademico == SeleccionEstatus.Aprobado || seleccion.EstatusAcademico == SeleccionEstatus.Reprobado)
                 select new GradeInfo
                 {
                     Nota = seleccion.Calificacion.Value,
                     Creditos = apa.Creditos,
-                    PeriodoAcademico = seleccion.PeriodoAcademico
+                    PeriodoAcademico = periodo.Codigo
                 };
 
             return await query.ToListAsync();
@@ -65,21 +67,21 @@ namespace SistemaAcademico.AcademicProgress.Infrastructure.Persistence.Repositor
             var query =
                 from seleccion in _dbContext.Seleccions
                 join seccion in _dbContext.Seccions on seleccion.IdSeccion equals seccion.SeccionId
+                join periodo in _dbContext.PeriodoConfigs on seleccion.IdPeriodo equals periodo.Id
                 join asignatura in _dbContext.Asignaturas on seccion.IdAsignatura equals asignatura.AsignaturaId
                 join apa in _dbContext.AsignaturaProgramaAcademicos on new { IdAsignatura = asignatura.AsignaturaId, IdProgramaAcademico = studentProgram.IdProgramaAcademico } equals new { apa.IdAsignatura, apa.IdProgramaAcademico }
                 join student in _dbContext.Usuarios on seleccion.IdUsuario equals student.IdUsuario
                 where seleccion.IdUsuario == studentId
-                      && seleccion.PeriodoAcademico == period
-                      && states.Contains(seleccion.Estado) // Filter by the provided states
+                      && periodo.Codigo == period
+                      && states.Contains(seleccion.EstatusAcademico.ToString()) // Filter by the provided states
                 select new CourseDetailInfo
                 {
                     CourseCode = asignatura.AsignaturaId.ToString(),
                     CourseName = asignatura.Nombre,
                     Credits = apa.Creditos,
                     FinalGrade = seleccion.Calificacion,
-                    MidtermGrade = seleccion.Calificacion_Mediotermino,
                     StudentName = student.Nombre + " " + student.Apellido,
-                    Status = seleccion.Estado // Select the status
+                    Status = seleccion.EstatusAcademico.ToString() // Select the status
                 };
 
             return await query.ToListAsync();

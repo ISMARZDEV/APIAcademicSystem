@@ -1,8 +1,11 @@
 using Microsoft.EntityFrameworkCore;
+using SistemaAcademico.AcademicCatalog.Core.Interfaces;
+using SistemaAcademico.AcademicCatalog.Infrastructure.Persistence.Repositories;
 using SistemaAcademico.AcademicProgress.Core.Interfaces;
 using SistemaAcademico.AcademicProgress.Core.Services;
 using SistemaAcademico.AcademicProgress.Infrastructure.Persistence.Repositories;
 using SistemaAcademico.Authentication.Infrastructure;
+using SistemaAcademico.Persistence.Data;
 using SistemaAcademico.Persistence.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,10 +18,26 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 var serverVersion = ServerVersion.AutoDetect(connectionString);
 
 
+// builder.Services.AddDbContext<SistemaAcademicoContext>(options =>
+// {
+//     options.UseMySql(connectionString, serverVersion);
+// });
+
+// Data Seeding
 builder.Services.AddDbContext<SistemaAcademicoContext>(options =>
-{
-    options.UseMySql(connectionString, serverVersion);
-});
+  options.UseMySql(connectionString, serverVersion)
+  .UseSeeding((context, _) =>
+  {
+      var appContext = (SistemaAcademicoContext)context;
+      DataSeeder.SeedData(appContext);
+  })
+);
+
+// Repositories
+builder.Services.AddScoped<IAcademicAreaRepository, AcademicAreaRepository>();
+
+// AutoMappers
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // Add services to the container.
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Scaffolding.Internal;
+using SistemaAcademico.Persistence.Data;
 
 namespace SistemaAcademico.Persistence.Models;
 
@@ -34,7 +35,13 @@ public partial class SistemaAcademicoContext : DbContext
 
     public virtual DbSet<Factura> Facturas { get; set; }
 
+    public virtual DbSet<PeriodoConfig> PeriodoConfigs { get; set; }
+
+    public virtual DbSet<Preseleccion> Preseleccions { get; set; }
+
     public virtual DbSet<ProgramaAcademico> ProgramaAcademicos { get; set; }
+
+    public virtual DbSet<Profesor> Profesors { get; set; }
 
     public virtual DbSet<Rol> Rols { get; set; }
 
@@ -61,7 +68,7 @@ public partial class SistemaAcademicoContext : DbContext
     /* ESTO SE MOVIO AL API GATEWAY
      * 
      * protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseMySql("server=bolzz0zm2tnkvjiuf56w-mysql.services.clever-cloud.com;port=3306;database=bolzz0zm2tnkvjiuf56w;user=uxhmzwsqo4x2jabr;password=fzPC670ZBPqowlD0gFCs;sslmode=Required", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.22-mysql"));
     */
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -95,7 +102,9 @@ public partial class SistemaAcademicoContext : DbContext
             entity.Property(e => e.AsignaturaId).HasColumnName("Asignatura_ID");
             entity.Property(e => e.IdAreaAcademica).HasMaxLength(3);
             entity.Property(e => e.Nombre).HasMaxLength(150);
-            entity.Property(e => e.Tipo).HasMaxLength(20);
+            entity.Property(e => e.Tipo)
+                .HasMaxLength(20)
+                .HasConversion<string>();
 
             entity.HasOne(d => d.IdAreaAcademicaNavigation).WithMany(p => p.Asignaturas)
                 .HasForeignKey(d => d.IdAreaAcademica)
@@ -252,7 +261,9 @@ public partial class SistemaAcademicoContext : DbContext
             entity.Property(e => e.ProgramaAcademicoId)
                 .ValueGeneratedNever()
                 .HasColumnName("ProgramaAcademico_ID");
-            entity.Property(e => e.Estatus).HasMaxLength(20);
+            entity.Property(e => e.Estatus)
+                .HasMaxLength(20)
+                .HasConversion<string>();
             entity.Property(e => e.IdCarrera).HasColumnName("ID_Carrera");
             entity.Property(e => e.Periodo).HasMaxLength(10);
             entity.Property(e => e.TotalCreditos).HasColumnName("Total_Creditos");
@@ -261,6 +272,41 @@ public partial class SistemaAcademicoContext : DbContext
                 .HasForeignKey(d => d.IdCarrera)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Carrera_ProgramaAcademico");
+        });
+
+        modelBuilder.Entity<Profesor>(entity =>
+        {
+            entity.HasKey(e => e.IdUsuario).HasName("PRIMARY");
+
+            entity.ToTable("Profesor");
+
+            entity.Property(e => e.IdUsuario)
+                .ValueGeneratedNever()
+                .HasColumnName("ID_Usuario");
+
+            entity.Property(e => e.GradoAcademico)
+                .HasMaxLength(100)
+                .HasColumnName("Grado_Academico");
+
+            entity.Property(e => e.Especialidad)
+                .HasMaxLength(100);
+
+            entity.Property(e => e.FechaContratacion)
+                .HasColumnType("date")
+                .HasColumnName("Fecha_Contratacion");
+
+            entity.Property(e => e.Estatus)
+                .HasMaxLength(15)
+                .HasConversion<string>();
+
+            entity.Property(e => e.Bio)
+                .HasColumnType("text");
+
+            entity.HasOne(d => d.IdUsuarioNavigation)
+                .WithOne(p => p.Profesor)
+                .HasForeignKey<Profesor>(d => d.IdUsuario)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Profesor_Usuario");
         });
 
         modelBuilder.Entity<Rol>(entity =>
@@ -291,6 +337,17 @@ public partial class SistemaAcademicoContext : DbContext
             entity.Property(e => e.NumeroSeccion)
                 .HasMaxLength(10)
                 .HasColumnName("Numero_Seccion");
+            //TODO: Agregue estas nuevas propiedades
+            entity.Property(e => e.CupoDisponible).HasColumnName("Cupo_Disponible");
+            entity.Property(e => e.PeriodoAcademico)
+                .HasMaxLength(10)
+                .HasColumnName("Periodo_Academico");
+            entity.Property(e => e.Estatus)
+                .HasMaxLength(15)
+                .HasConversion<string>();
+            entity.Property(e => e.Modalidad)
+                .HasMaxLength(15)
+                .HasConversion<string>();
 
             entity.HasOne(d => d.IdAsignaturaNavigation).WithMany(p => p.Seccions)
                 .HasForeignKey(d => d.IdAsignatura)
@@ -310,9 +367,13 @@ public partial class SistemaAcademicoContext : DbContext
             entity.ToTable("SeccionHorario");
 
             entity.HasIndex(e => e.IdAula, "FK_SeccionHorario_Aula");
+            entity.HasIndex(e => e.IdSeccion, "FK_SeccionHorario_Seccion");
 
             entity.Property(e => e.IdSeccionHorario).HasColumnName("ID_SeccionHorario");
-            entity.Property(e => e.Dia).HasMaxLength(15);
+            entity.Property(e => e.IdSeccion).HasColumnName("ID_Seccion");
+            entity.Property(e => e.Dia)
+                .HasMaxLength(15)
+                .HasConversion<string>();
             entity.Property(e => e.HoraFin).HasColumnType("time");
             entity.Property(e => e.HoraInicio).HasColumnType("time");
             entity.Property(e => e.IdAula).HasColumnName("ID_Aula");
@@ -321,36 +382,42 @@ public partial class SistemaAcademicoContext : DbContext
                 .HasForeignKey(d => d.IdAula)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_SeccionHorario_Aula");
+
+            entity.HasOne(d => d.IdSeccionNavigation).WithMany(p => p.SeccionHorarios)
+                .HasForeignKey(d => d.IdSeccion)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_SeccionHorario_Seccion");
         });
 
         modelBuilder.Entity<Seleccion>(entity =>
         {
-            entity.HasKey(e => new { e.IdUsuario, e.IdSeccion })
-                .HasName("PRIMARY")
-                .HasAnnotation("MySql:IndexPrefixLength", new[] { 0, 0 });
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity.ToTable("Seleccion");
 
-            entity.HasIndex(e => e.IdSeccion, "CK_Seleccion_Seccion");
-
-            entity.HasIndex(e => e.Asignatura, "FK_Seleccion_Asignatura");
-
+            entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.IdUsuario).HasColumnName("ID_Usuario");
             entity.Property(e => e.IdSeccion).HasColumnName("ID_Seccion");
-            entity.Property(e => e.Asignatura).HasMaxLength(150);
-            entity.Property(e => e.Comentario).HasMaxLength(255);
-            entity.Property(e => e.Estado).HasColumnType("enum('Cursando','Aprobando','Retirado')");
-            entity.Property(e => e.PeriodoAcademico).HasMaxLength(10);
+            entity.Property(e => e.IdPeriodo).HasColumnName("ID_Periodo");
+            entity.Property(e => e.VieneDePreseleccion).HasColumnName("VieneDePreseleccion");
+            entity.Property(e => e.FechaConfirmacion).HasColumnName("FechaConfirmacion");
+            entity.Property(e => e.Calificacion).HasPrecision(5, 2);
+            entity.Property(e => e.EstatusAcademico).HasColumnType("int");
 
             entity.HasOne(d => d.IdSeccionNavigation).WithMany(p => p.Seleccions)
                 .HasForeignKey(d => d.IdSeccion)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("CK_Seleccion_Seccion");
+                .HasConstraintName("FK_Seleccion_Seccion");
 
             entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Seleccions)
                 .HasForeignKey(d => d.IdUsuario)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("CK_Seleccion_Usuario");
+                .HasConstraintName("FK_Seleccion_Usuario");
+
+            entity.HasOne(d => d.IdPeriodoNavigation).WithMany(p => p.Seleccions)
+                .HasForeignKey(d => d.IdPeriodo)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Seleccion_Periodo");
         });
 
         modelBuilder.Entity<Tarifario>(entity =>
@@ -520,6 +587,47 @@ public partial class SistemaAcademicoContext : DbContext
                 .HasForeignKey(d => d.IdUsuario)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("CK_UsuarioTarifario2");
+        });
+
+        modelBuilder.Entity<PeriodoConfig>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
+            entity.ToTable("PeriodoConfig");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Nombre).HasMaxLength(50);
+            entity.Property(e => e.Codigo).HasMaxLength(10);
+            entity.Property(e => e.PermitirModificarEnSeleccion).HasColumnName("PermitirModificarEnSeleccion");
+        });
+
+        modelBuilder.Entity<Preseleccion>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
+            entity.ToTable("Preseleccion");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.IdUsuario).HasColumnName("ID_Usuario");
+            entity.Property(e => e.IdSeccion).HasColumnName("ID_Seccion");
+            entity.Property(e => e.IdPeriodo).HasColumnName("ID_Periodo");
+            entity.Property(e => e.FechaRegistro).HasColumnName("Fecha_Registro");
+            entity.Property(e => e.Procesada).HasColumnName("Procesada");
+
+            entity.HasOne(d => d.IdSeccionNavigation).WithMany(p => p.Preseleccions)
+                .HasForeignKey(d => d.IdSeccion)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Preseleccion_Seccion");
+
+            entity.HasOne(d => d.IdPeriodoNavigation).WithMany(p => p.Preseleccions)
+                .HasForeignKey(d => d.IdPeriodo)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Preseleccion_Periodo");
+
+            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Preseleccions)
+                .HasForeignKey(d => d.IdUsuario)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Preseleccion_Usuario");
         });
 
         OnModelCreatingPartial(modelBuilder);

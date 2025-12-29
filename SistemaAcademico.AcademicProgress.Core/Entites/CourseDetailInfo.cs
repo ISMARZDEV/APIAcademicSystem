@@ -9,8 +9,7 @@
         public string CourseCode { get; set; } = string.Empty;
         public string CourseName { get; set; } = string.Empty;
         public int Credits { get; set; }
-        public int? FinalGrade { get; set; }
-        public int? MidtermGrade { get; set; }
+        public decimal? FinalGrade { get; set; }
         public string StudentName { get; set; } = string.Empty;
         public string Status { get; set; } = string.Empty; // Added Status property
     }
