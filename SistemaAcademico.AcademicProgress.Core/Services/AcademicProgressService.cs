@@ -56,7 +56,7 @@ namespace SistemaAcademico.AcademicProgress.Core.Services
         public async Task<GradeReportDto?> GetFinalGradesReportAsync(int studentId, int year, int trimester)
         {
             var period = $"{year}-T{trimester}"; // Corrected period format
-            var statesToInclude = new[] { "Aprobando", "Reprobado", "Retirado" };
+            var statesToInclude = new[] { "Aprobado", "Reprobado", "Retirado" };
             var gradesData = await _repository.GetGradesByPeriodAsync(studentId, period, statesToInclude);
 
             if (!gradesData.Any()) return null;
@@ -84,7 +84,7 @@ namespace SistemaAcademico.AcademicProgress.Core.Services
         public async Task<GradeReportDto?> GetMidtermGradesReportAsync(int studentId, int year, int trimester)
         {
             var period = $"{year}-T{trimester}"; // Corrected period format
-            var statesToInclude = new[] { "Cursando", "Retirado", "Aprobando", "Reprobado" };
+            var statesToInclude = new[] { "Cursando", "Retirado", "Aprobado", "Reprobado" };
             var gradesData = await _repository.GetGradesByPeriodAsync(studentId, period, statesToInclude);
 
             if (!gradesData.Any()) return null;
@@ -97,7 +97,7 @@ namespace SistemaAcademico.AcademicProgress.Core.Services
                 {
                     CourseName = g.CourseName,
                     Credits = g.Credits,
-                    NumericGrade = g.Status == "Retirado" ? null : g.MidtermGrade,
+                    NumericGrade = null, // MidtermGrade removed from schema
                     LetterGrade = g.Status == "Retirado" ? "R" : null
                 }).ToList()
             };
@@ -105,7 +105,7 @@ namespace SistemaAcademico.AcademicProgress.Core.Services
             return report;
         }
 
-        private string ConvertToLetterGrade(int nota)
+        private string ConvertToLetterGrade(decimal nota)
         {
             return nota switch
             {
@@ -151,7 +151,7 @@ namespace SistemaAcademico.AcademicProgress.Core.Services
         /// <summary>
         /// Convierte una calificación numérica (0-100) a su equivalente en puntos de honor (escala 4.0).
         /// </summary>
-        private decimal ConvertToHonorPoints(int nota)
+        private decimal ConvertToHonorPoints(decimal nota)
         {
             return nota switch
             {

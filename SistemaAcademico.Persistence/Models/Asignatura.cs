@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using SistemaAcademico.Persistence.Data;
 
 namespace SistemaAcademico.Persistence.Models;
 
 public partial class Asignatura
 {
-    public int AsignaturaId { get; set; }
+
+    public string AsignaturaId { get; set; } = null!; // TODO: Cambie el tipo a string
 
     public string Nombre { get; set; } = null!;
 
-    public string Tipo { get; set; } = null!;
+    public TipoAsignatura Tipo { get; set; }
 
     public string IdAreaAcademica { get; set; } = null!;
 
@@ -20,4 +22,6 @@ public partial class Asignatura
     public virtual AreaAcademica IdAreaAcademicaNavigation { get; set; } = null!;
 
     public virtual ICollection<Seccion> Seccions { get; set; } = new List<Seccion>();
+
+    public virtual ICollection<Preseleccion> Preseleccions { get; set; } = new List<Preseleccion>();
 }

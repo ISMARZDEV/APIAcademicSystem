@@ -9,7 +9,7 @@
         /// <summary>
         /// Calificación numérica obtenida (0-100).
         /// </summary>
-        public int Nota { get; set; }
+        public decimal Nota { get; set; }
 
         /// <summary>
         /// Cantidad de créditos de la asignatura.
