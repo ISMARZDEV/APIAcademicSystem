@@ -28,8 +28,8 @@ builder.Services.AddDbContext<SistemaAcademicoContext>(options =>
   options.UseMySql(connectionString, serverVersion)
   .UseSeeding((context, _) =>
   {
-      var appContext = (SistemaAcademicoContext)context;
-      DataSeeder.SeedData(appContext);
+    var appContext = (SistemaAcademicoContext)context;
+    DataSeeder.SeedData(appContext);
   })
 );
 
@@ -43,9 +43,12 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // Register the services for the AcademicProgress module
 builder.Services.AddScoped<IAcademicProgressService, AcademicProgressService>();
-builder.Services.AddScoped<IAcademicProgressRepository, AcademicProgressRepository>();
 
+builder.Services.AddScoped<IAcademicProgressRepository, AcademicProgressRepository>();
+builder.Services.AddScoped<ICareerRepository, CareerRepository>();
+builder.Services.AddScoped<IAcademicProgramRepository, AcademicProgramRepository>();
 builder.Services.AddControllers();
+builder.Services.AddScoped<ISubjectsRepository, SubjectRepository>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -60,8 +63,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+  app.UseSwagger();
+  app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

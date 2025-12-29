@@ -7,7 +7,7 @@ namespace SistemaAcademico.Persistence.Models;
 public partial class Asignatura
 {
 
-    public string AsignaturaId { get; set; } = null!; // TODO: Cambie el tipo a string
+    public string AsignaturaId { get; set; } = null!;
 
     public string Nombre { get; set; } = null!;
 

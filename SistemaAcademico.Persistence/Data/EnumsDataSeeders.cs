@@ -23,8 +23,8 @@ namespace SistemaAcademico.Persistence.Data
 
     public enum EstatusPrograma
     {
-        Activo,
-        Inactivo
+        Inactivo,
+        Activo
     }
 
     public enum EstatusProfesor

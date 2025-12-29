@@ -4,9 +4,9 @@ using SistemaAcademico.AcademicCatalog.Core.DTOs.AreaAcademica;
 using SistemaAcademico.Persistence.Models;
 namespace SistemaAcademico.AcademicCatalog.Infrastructure.Persistence.Mapping;
 
-public class AreaAcademicaProfile : Profile
+public class AcademicAreaProfile : Profile
 {
-    public AreaAcademicaProfile()
+    public AcademicAreaProfile()
     {
         CreateMap<AreaAcademica, AcademicAreaDto>().ReverseMap();
     }
