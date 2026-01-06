@@ -18,8 +18,6 @@ public partial class Seleccion
 
     public DateTime FechaConfirmacion { get; set; }
 
-    public decimal? Calificacion { get; set; }
-
     public SeleccionEstatus EstatusAcademico { get; set; }
 
     public virtual Seccion IdSeccionNavigation { get; set; } = null!;

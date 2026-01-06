@@ -15,6 +15,8 @@ public partial class UsuarioProgramaAcademico
 
     public int Permanencia { get; set; }
 
+    public int TrimestreActual { get; set; }
+
     public virtual ProgramaAcademico IdProgramaAcademicoNavigation { get; set; } = null!;
 
     public virtual Usuario IdUsuarioNavigation { get; set; } = null!;

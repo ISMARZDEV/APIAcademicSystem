@@ -24,4 +24,6 @@ public partial class Asignatura
     public virtual ICollection<Seccion> Seccions { get; set; } = new List<Seccion>();
 
     public virtual ICollection<Preseleccion> Preseleccions { get; set; } = new List<Preseleccion>();
+
+    public virtual ICollection<HistorialAcademico> HistorialAcademicos { get; set; } = new List<HistorialAcademico>();
 }

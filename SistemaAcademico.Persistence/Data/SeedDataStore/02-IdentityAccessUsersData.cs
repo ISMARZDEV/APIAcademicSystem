@@ -29,6 +29,20 @@ public static class IdentityAccessUsersData
             FechaIngreso = DateOnly.FromDateTime(DateTime.Now),
             ClaveHash = "hash",
             IdRol = 1
+        },
+        new Usuario
+        {
+            IdUsuario = 2,
+            Nombre = "Maria",
+            Apellido = "Gomez",
+            Nacionalidad = "Dominicana",
+            Direccion = "Av. Winston Churchill",
+            Telefono = "8095551234",
+            CorreoPersonal = "maria.gomez@gmail.com",
+            CorreoInstitucional = "m.gomez@institucion.edu.do",
+            FechaIngreso = DateOnly.FromDateTime(new DateTime(2024, 1, 10)),
+            ClaveHash = "hash",
+            IdRol = 2 // Estudiante
         }
     };
 

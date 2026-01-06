@@ -7,17 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+
     <Folder Include="Persistence\Configurations\" />
     <Folder Include="Persistence\Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
+<PackageReference Include="AutoMapper" Version="12.0.1" />
+<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SistemaAcademico.Infraestrucutre\SistemaAcademico.SharedKernel.Infrastructure.csproj" />
     <ProjectReference Include="..\SistemaAcademico.SelecctionAndPreselecction.Core\SistemaAcademico.SelecctionAndPreselecction.Core.csproj" />
+<ProjectReference Include="..\SistemaAcademico.Persistence\SistemaAcademico.Persistence.csproj" />
+
   </ItemGroup>
 
 </Project>

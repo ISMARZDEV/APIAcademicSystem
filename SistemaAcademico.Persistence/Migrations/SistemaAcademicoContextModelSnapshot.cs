@@ -88,6 +88,9 @@ namespace SistemaAcademico.Persistence.Migrations
                     b.Property<int>("Creditos")
                         .HasColumnType("int");
 
+                    b.Property<int>("Periodo")
+                        .HasColumnType("int");
+
                     b.Property<string>("PreRequisitos")
                         .IsRequired()
                         .HasColumnType("json");
@@ -95,6 +98,8 @@ namespace SistemaAcademico.Persistence.Migrations
                     b.HasKey("IdAsignatura", "IdProgramaAcademico")
                         .HasName("PRIMARY")
                         .HasAnnotation("MySql:IndexPrefixLength", new[] { 0, 0 });
+
+                    b.HasIndex("IdProgramaAcademico");
 
                     b.HasIndex(new[] { "Corequisito" }, "FK_AsignaturaProgramaAcademico_Corequisito");
 
@@ -324,6 +329,52 @@ namespace SistemaAcademico.Persistence.Migrations
                     b.ToTable("Factura", (string)null);
                 });
 
+            modelBuilder.Entity("SistemaAcademico.Persistence.Models.HistorialAcademico", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("ID");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("Calificacion")
+                        .HasPrecision(5, 2)
+                        .HasColumnType("decimal(5,2)");
+
+                    b.Property<int>("Estatus")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("FechaRegistro")
+                        .HasColumnType("datetime(6)")
+                        .HasColumnName("Fecha_Registro");
+
+                    b.Property<string>("IdAsignatura")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("varchar(10)")
+                        .HasColumnName("ID_Asignatura");
+
+                    b.Property<int>("IdPeriodo")
+                        .HasColumnType("int")
+                        .HasColumnName("ID_Periodo");
+
+                    b.Property<int>("IdUsuario")
+                        .HasColumnType("int")
+                        .HasColumnName("ID_Usuario");
+
+                    b.HasKey("Id")
+                        .HasName("PRIMARY");
+
+                    b.HasIndex("IdAsignatura");
+
+                    b.HasIndex("IdPeriodo");
+
+                    b.HasIndex("IdUsuario");
+
+                    b.ToTable("HistorialAcademico", (string)null);
+                });
+
             modelBuilder.Entity("SistemaAcademico.Persistence.Models.PeriodoConfig", b =>
                 {
                     b.Property<int>("Id")
@@ -373,6 +424,12 @@ namespace SistemaAcademico.Persistence.Migrations
                         .HasColumnName("ID");
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Activa")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("tinyint(1)")
+                        .HasDefaultValue(true)
+                        .HasColumnName("Activa");
 
                     b.Property<string>("AsignaturaId")
                         .HasColumnType("varchar(255)");
@@ -602,10 +659,6 @@ namespace SistemaAcademico.Persistence.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<decimal?>("Calificacion")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)");
-
                     b.Property<int>("EstatusAcademico")
                         .HasColumnType("int");
 
@@ -788,6 +841,10 @@ namespace SistemaAcademico.Persistence.Migrations
                     b.Property<int>("Permanencia")
                         .HasColumnType("int");
 
+                    b.Property<int>("TrimestreActual")
+                        .HasColumnType("int")
+                        .HasColumnName("TrimestreActual");
+
                     b.HasKey("IdUsuario", "IdProgramaAcademico")
                         .HasName("PRIMARY")
                         .HasAnnotation("MySql:IndexPrefixLength", new[] { 0, 0 });
@@ -906,9 +963,17 @@ namespace SistemaAcademico.Persistence.Migrations
                         .IsRequired()
                         .HasConstraintName("CK_AsignaturaProgramaAcademico1");
 
+                    b.HasOne("SistemaAcademico.Persistence.Models.ProgramaAcademico", "IdProgramaAcademicoNavigation")
+                        .WithMany("AsignaturaProgramaAcademicos")
+                        .HasForeignKey("IdProgramaAcademico")
+                        .IsRequired()
+                        .HasConstraintName("FK_AsignaturaProgramaAcademico_ProgramaAcademico");
+
                     b.Navigation("CorequisitoNavigation");
 
                     b.Navigation("IdAsignaturaNavigation");
+
+                    b.Navigation("IdProgramaAcademicoNavigation");
                 });
 
             modelBuilder.Entity("SistemaAcademico.Persistence.Models.Aula", b =>
@@ -964,6 +1029,33 @@ namespace SistemaAcademico.Persistence.Migrations
                         .HasConstraintName("FK_Factura_CPP");
 
                     b.Navigation("IdCuentaPorPagarNavigation");
+                });
+
+            modelBuilder.Entity("SistemaAcademico.Persistence.Models.HistorialAcademico", b =>
+                {
+                    b.HasOne("SistemaAcademico.Persistence.Models.Asignatura", "IdAsignaturaNavigation")
+                        .WithMany("HistorialAcademicos")
+                        .HasForeignKey("IdAsignatura")
+                        .IsRequired()
+                        .HasConstraintName("FK_Historial_Asignatura");
+
+                    b.HasOne("SistemaAcademico.Persistence.Models.PeriodoConfig", "IdPeriodoNavigation")
+                        .WithMany("HistorialAcademicos")
+                        .HasForeignKey("IdPeriodo")
+                        .IsRequired()
+                        .HasConstraintName("FK_Historial_Periodo");
+
+                    b.HasOne("SistemaAcademico.Persistence.Models.Usuario", "IdUsuarioNavigation")
+                        .WithMany("HistorialAcademicos")
+                        .HasForeignKey("IdUsuario")
+                        .IsRequired()
+                        .HasConstraintName("FK_Historial_Usuario");
+
+                    b.Navigation("IdAsignaturaNavigation");
+
+                    b.Navigation("IdPeriodoNavigation");
+
+                    b.Navigation("IdUsuarioNavigation");
                 });
 
             modelBuilder.Entity("SistemaAcademico.Persistence.Models.Preseleccion", b =>
@@ -1197,6 +1289,8 @@ namespace SistemaAcademico.Persistence.Migrations
 
                     b.Navigation("AsignaturaProgramaAcademicoIdAsignaturaNavigations");
 
+                    b.Navigation("HistorialAcademicos");
+
                     b.Navigation("Preseleccions");
 
                     b.Navigation("Seccions");
@@ -1229,6 +1323,8 @@ namespace SistemaAcademico.Persistence.Migrations
 
             modelBuilder.Entity("SistemaAcademico.Persistence.Models.PeriodoConfig", b =>
                 {
+                    b.Navigation("HistorialAcademicos");
+
                     b.Navigation("Preseleccions");
 
                     b.Navigation("Seleccions");
@@ -1241,6 +1337,8 @@ namespace SistemaAcademico.Persistence.Migrations
 
             modelBuilder.Entity("SistemaAcademico.Persistence.Models.ProgramaAcademico", b =>
                 {
+                    b.Navigation("AsignaturaProgramaAcademicos");
+
                     b.Navigation("UsuarioProgramaAcademicos");
                 });
 
@@ -1268,6 +1366,8 @@ namespace SistemaAcademico.Persistence.Migrations
             modelBuilder.Entity("SistemaAcademico.Persistence.Models.Usuario", b =>
                 {
                     b.Navigation("CuentaPorPagars");
+
+                    b.Navigation("HistorialAcademicos");
 
                     b.Navigation("Preseleccions");
 

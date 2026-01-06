@@ -20,9 +20,11 @@ public partial class PeriodoConfig
 
     public DateTime SeleccionFin { get; set; }
 
-    public bool PermitirModificarEnSeleccion { get; set; }
+    public bool PermitirModificarEnSeleccion { get; set; } = true;
 
     public virtual ICollection<Preseleccion> Preseleccions { get; set; } = new List<Preseleccion>();
 
     public virtual ICollection<Seleccion> Seleccions { get; set; } = new List<Seleccion>();
+
+    public virtual ICollection<HistorialAcademico> HistorialAcademicos { get; set; } = new List<HistorialAcademico>();
 }
