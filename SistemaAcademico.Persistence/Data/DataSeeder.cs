@@ -121,6 +121,18 @@ public static class DataSeeder
             appContext.Seleccions.AddRange(AcademicProcessesData.GetSeleccions());
         }
 
+        // Seeding de UsuarioProgramaAcademico
+        if (!appContext.UsuarioProgramaAcademicos.Any())
+        {
+            appContext.UsuarioProgramaAcademicos.AddRange(AcademicProcessesData.GetUsuarioProgramaAcademicos());
+        }
+
+        // Seeding de HistorialAcademico
+        if (!appContext.HistorialAcademicos.Any())
+        {
+            appContext.HistorialAcademicos.AddRange(AcademicProcessesData.GetHistorialAcademicos());
+        }
+
         #endregion
 
         appContext.SaveChanges();

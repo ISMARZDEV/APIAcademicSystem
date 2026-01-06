@@ -134,81 +134,91 @@ public static class CurricularStructureData
         {
             IdAsignatura = "AHC109",
             IdProgramaAcademico = 1,
-            PreRequisitos = "[]",
+            PreRequisitos = new List<string> { "AHO102", "CBA1X3" },
             Corequisito = null,
-            Creditos = 4
+            Creditos = 4,
+            Periodo = 1
         },
         new AsignaturaProgramaAcademico
         {
             IdAsignatura = "AHO102",
             IdProgramaAcademico = 1,
-            PreRequisitos = "[]",
+            PreRequisitos = new List<string>(),
             Corequisito = null,
-            Creditos = 0
+            Creditos = 0,
+            Periodo = 1
         },
         new AsignaturaProgramaAcademico
         {
             IdAsignatura = "CBA1X3",
             IdProgramaAcademico = 1,
-            PreRequisitos = "[]",
+            PreRequisitos = new List<string>(),
             Corequisito = null,
-            Creditos = 2
+            Creditos = 2,
+            Periodo = 1
         },
         new AsignaturaProgramaAcademico
         {
             IdAsignatura = "CBM101",
             IdProgramaAcademico = 1,
-            PreRequisitos = "[]",
+            PreRequisitos = new List<string>(),
             Corequisito = null,
             Creditos = 5,
+            Periodo = 1
         },
         new AsignaturaProgramaAcademico
         {
             IdAsignatura = "CSH112",
             IdProgramaAcademico = 1,
-            PreRequisitos = "[]",
+            PreRequisitos = new List<string>(),
             Corequisito = null,
-            Creditos = 2
+            Creditos = 2,
+            Periodo = 1
         },
         new AsignaturaProgramaAcademico
         {
             IdAsignatura = "EAA1X1",
             IdProgramaAcademico = 1,
-            PreRequisitos = "[]",
+            PreRequisitos = new List<string>(),
             Corequisito = null,
-            Creditos = 2
+            Creditos = 2,
+            Periodo = 1
         },
         new AsignaturaProgramaAcademico
         {
             IdAsignatura = "EAA1X2",
             IdProgramaAcademico = 1,
-            PreRequisitos = "[]",
+            PreRequisitos = new List<string>(),
             Corequisito = null,
-            Creditos = 2
+            Creditos = 2,
+            Periodo = 1
         },
         new AsignaturaProgramaAcademico
         {
             IdAsignatura = "EAA1X3",
             IdProgramaAcademico = 1,
-            PreRequisitos = "[]",
+            PreRequisitos = new List<string>(),
             Corequisito = null,
             Creditos = 2,
+            Periodo = 1
         },
         new AsignaturaProgramaAcademico
         {
             IdAsignatura = "IDS207",
             IdProgramaAcademico = 1,
-            PreRequisitos = "[]",
+            PreRequisitos = new List<string>(),
             Corequisito = null,
             Creditos = 2,
+            Periodo = 1
         },
         new AsignaturaProgramaAcademico
         {
             IdAsignatura = "SHI103",
             IdProgramaAcademico = 1,
-            PreRequisitos = "[]",
+            PreRequisitos = new List<string>(),
             Corequisito = null,
             Creditos = 2,
+            Periodo = 1
         }
     };
 

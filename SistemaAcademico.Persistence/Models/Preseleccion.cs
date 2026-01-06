@@ -17,6 +17,8 @@ public partial class Preseleccion
 
     public bool Procesada { get; set; }
 
+    public bool Activa { get; set; }
+
     public virtual Seccion IdSeccionNavigation { get; set; } = null!;
 
     public virtual PeriodoConfig IdPeriodoNavigation { get; set; } = null!;

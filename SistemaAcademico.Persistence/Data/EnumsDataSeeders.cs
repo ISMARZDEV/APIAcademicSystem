@@ -45,9 +45,17 @@ namespace SistemaAcademico.Persistence.Data
     {
         Inscrito,
         Cursando,
+        Retirado,
+        PendienteNota,
+        Procesado
+    }
+
+    public enum HistorialEstatus
+    {
         Aprobado,
         Reprobado,
-        Retirado
+        Convalidado,
+        Exonerado
     }
 
     public enum DiaSemana

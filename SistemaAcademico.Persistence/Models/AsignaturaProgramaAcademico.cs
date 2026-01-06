@@ -9,13 +9,17 @@ public partial class AsignaturaProgramaAcademico
 
     public int IdProgramaAcademico { get; set; }
 
-    public string PreRequisitos { get; set; } = null!;
+    public List<string> PreRequisitos { get; set; } = new List<string>();
 
     public string? Corequisito { get; set; } // TODO: Cambie el tipo a string y que sea nullable
 
     public int Creditos { get; set; }
 
+    public int Periodo { get; set; }
+
     public virtual Asignatura? CorequisitoNavigation { get; set; } // TODO: Cambie el tipo a que sea nullable
 
     public virtual Asignatura IdAsignaturaNavigation { get; set; } = null!;
+
+    public virtual ProgramaAcademico IdProgramaAcademicoNavigation { get; set; } = null!;
 }

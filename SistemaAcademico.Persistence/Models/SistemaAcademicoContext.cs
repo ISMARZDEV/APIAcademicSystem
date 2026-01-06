@@ -35,6 +35,8 @@ public partial class SistemaAcademicoContext : DbContext
 
     public virtual DbSet<Factura> Facturas { get; set; }
 
+    public virtual DbSet<HistorialAcademico> HistorialAcademicos { get; set; }
+
     public virtual DbSet<PeriodoConfig> PeriodoConfigs { get; set; }
 
     public virtual DbSet<Preseleccion> Preseleccions { get; set; }
@@ -124,7 +126,12 @@ public partial class SistemaAcademicoContext : DbContext
 
             entity.Property(e => e.IdAsignatura).HasColumnName("Id_Asignatura");
             entity.Property(e => e.IdProgramaAcademico).HasColumnName("Id_ProgramaAcademico");
-            entity.Property(e => e.PreRequisitos).HasColumnType("json");
+            entity.Property(e => e.PreRequisitos)
+                .HasColumnType("json")
+                .HasConversion(
+                    v => System.Text.Json.JsonSerializer.Serialize(v, (System.Text.Json.JsonSerializerOptions)null!),
+                    v => System.Text.Json.JsonSerializer.Deserialize<List<string>>(v, (System.Text.Json.JsonSerializerOptions)null!) ?? new List<string>()
+                );
 
             entity.HasOne(d => d.CorequisitoNavigation).WithMany(p => p.AsignaturaProgramaAcademicoCorequisitoNavigations)
                 .HasForeignKey(d => d.Corequisito)
@@ -135,6 +142,11 @@ public partial class SistemaAcademicoContext : DbContext
                 .HasForeignKey(d => d.IdAsignatura)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("CK_AsignaturaProgramaAcademico1");
+
+            entity.HasOne(d => d.IdProgramaAcademicoNavigation).WithMany(p => p.AsignaturaProgramaAcademicos)
+                .HasForeignKey(d => d.IdProgramaAcademico)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_AsignaturaProgramaAcademico_ProgramaAcademico");
         });
 
         modelBuilder.Entity<Aula>(entity =>
@@ -401,7 +413,6 @@ public partial class SistemaAcademicoContext : DbContext
             entity.Property(e => e.IdPeriodo).HasColumnName("ID_Periodo");
             entity.Property(e => e.VieneDePreseleccion).HasColumnName("VieneDePreseleccion");
             entity.Property(e => e.FechaConfirmacion).HasColumnName("FechaConfirmacion");
-            entity.Property(e => e.Calificacion).HasPrecision(5, 2);
             entity.Property(e => e.EstatusAcademico).HasColumnType("int");
 
             entity.HasOne(d => d.IdSeccionNavigation).WithMany(p => p.Seleccions)
@@ -506,6 +517,7 @@ public partial class SistemaAcademicoContext : DbContext
             entity.Property(e => e.IdProgramaAcademico).HasColumnName("ID_ProgramaAcademico");
             entity.Property(e => e.Estatus).HasMaxLength(20);
             entity.Property(e => e.FechaInscripcion).HasColumnName("Fecha_Inscripcion");
+            entity.Property(e => e.TrimestreActual).HasColumnName("TrimestreActual");
 
             entity.HasOne(d => d.IdProgramaAcademicoNavigation).WithMany(p => p.UsuarioProgramaAcademicos)
                 .HasForeignKey(d => d.IdProgramaAcademico)
@@ -613,6 +625,7 @@ public partial class SistemaAcademicoContext : DbContext
             entity.Property(e => e.IdPeriodo).HasColumnName("ID_Periodo");
             entity.Property(e => e.FechaRegistro).HasColumnName("Fecha_Registro");
             entity.Property(e => e.Procesada).HasColumnName("Procesada");
+            entity.Property(e => e.Activa).HasColumnName("Activa").HasDefaultValue(true);
 
             entity.HasOne(d => d.IdSeccionNavigation).WithMany(p => p.Preseleccions)
                 .HasForeignKey(d => d.IdSeccion)
@@ -628,6 +641,36 @@ public partial class SistemaAcademicoContext : DbContext
                 .HasForeignKey(d => d.IdUsuario)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Preseleccion_Usuario");
+        });
+
+        modelBuilder.Entity<HistorialAcademico>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
+            entity.ToTable("HistorialAcademico");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.IdUsuario).HasColumnName("ID_Usuario");
+            entity.Property(e => e.IdAsignatura).HasMaxLength(10).HasColumnName("ID_Asignatura");
+            entity.Property(e => e.IdPeriodo).HasColumnName("ID_Periodo");
+            entity.Property(e => e.Calificacion).HasPrecision(5, 2);
+            entity.Property(e => e.Estatus).HasConversion<int>();
+            entity.Property(e => e.FechaRegistro).HasColumnName("Fecha_Registro");
+
+            entity.HasOne(d => d.IdAsignaturaNavigation).WithMany(p => p.HistorialAcademicos)
+                .HasForeignKey(d => d.IdAsignatura)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Historial_Asignatura");
+
+            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.HistorialAcademicos)
+                .HasForeignKey(d => d.IdUsuario)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Historial_Usuario");
+
+            entity.HasOne(d => d.IdPeriodoNavigation).WithMany(p => p.HistorialAcademicos)
+                .HasForeignKey(d => d.IdPeriodo)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Historial_Periodo");
         });
 
         OnModelCreatingPartial(modelBuilder);

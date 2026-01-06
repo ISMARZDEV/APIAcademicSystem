@@ -46,4 +46,6 @@ public partial class Usuario
     public virtual ICollection<UsuarioRol> UsuarioRols { get; set; } = new List<UsuarioRol>();
 
     public virtual ICollection<UsuarioTarifario> UsuarioTarifarios { get; set; } = new List<UsuarioTarifario>();
+
+    public virtual ICollection<HistorialAcademico> HistorialAcademicos { get; set; } = new List<HistorialAcademico>();
 }

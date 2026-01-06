@@ -21,4 +21,6 @@ public partial class ProgramaAcademico
     public virtual Carrera IdCarreraNavigation { get; set; } = null!;
 
     public virtual ICollection<UsuarioProgramaAcademico> UsuarioProgramaAcademicos { get; set; } = new List<UsuarioProgramaAcademico>();
+
+    public virtual ICollection<AsignaturaProgramaAcademico> AsignaturaProgramaAcademicos { get; set; } = new List<AsignaturaProgramaAcademico>();
 }
